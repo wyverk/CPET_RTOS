@@ -1,0 +1,3 @@
+SemaSync.c:14:6:InitEFSema	8	static
+SemaSync.c:18:6:SetEFSema	16	static
+SemaSync.c:26:6:WaitEFSema	8	static

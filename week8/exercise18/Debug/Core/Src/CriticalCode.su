@@ -1,0 +1,5 @@
+CriticalCode.c:20:6:InitSem	8	static
+CriticalCode.c:25:6:SetGreenRate	16	static
+CriticalCode.c:31:5:GetGreenRate	4	static
+CriticalCode.c:35:6:SetRedRate	16	static
+CriticalCode.c:41:5:GetRedRate	4	static

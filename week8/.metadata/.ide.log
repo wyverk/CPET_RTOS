@@ -1,0 +1,1887 @@
+2021-03-26 04:09:23,343 [INFO] Activator:176 - 
+
+
+2021-03-26 04:09:23,346 [INFO] Activator:177 - !SESSION log4j initialized
+2021-03-26 04:09:28,447 [INFO] ApplicationProperties:181 - Using Application install path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541
+2021-03-26 04:09:28,467 [INFO] DbMcusXml:68 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/
+2021-03-26 04:09:28,471 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/boardmanager/
+2021-03-26 04:09:28,472 [INFO] DbMcus:265 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2021-03-26 04:09:28,472 [INFO] DbBoards:232 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2021-03-26 04:09:28,474 [INFO] APIGFXSelector:72 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/mcu/
+2021-03-26 04:09:28,484 [INFO] DbMcusAds:72 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 04:09:28,485 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 04:09:28,487 [INFO] DbMcusJson:59 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 04:09:28,488 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 04:09:28,489 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 04:09:39,638 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-03-26 04:09:39,751 [INFO] RulesReader:52 - Compatibility file has been processed (179 Rules)
+2021-03-26 04:09:39,844 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_202
+2021-03-26 04:09:39,844 [INFO] DbMcusXml:68 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/
+2021-03-26 04:09:39,844 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/boardmanager/
+2021-03-26 04:09:39,845 [INFO] DbMcus:265 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2021-03-26 04:09:39,845 [INFO] DbBoards:232 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2021-03-26 04:09:39,846 [INFO] APIGFXSelector:72 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/mcu/
+2021-03-26 04:09:39,846 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 04:09:39,846 [INFO] DbMcusAds:72 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 04:09:39,846 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 04:09:39,846 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 04:09:39,846 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 04:09:39,847 [INFO] DbMcusJson:59 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 04:09:39,847 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 04:09:39,847 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 04:09:39,847 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 04:09:39,847 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 04:09:39,847 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 04:09:39,847 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 04:09:39,848 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-03-26 04:09:39,931 [INFO] MainPanel:185 - HeapMemory: 317718528
+2021-03-26 04:09:40,034 [INFO] DbMcusXml:68 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/
+2021-03-26 04:09:40,035 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/boardmanager/
+2021-03-26 04:09:40,035 [INFO] DbMcus:265 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2021-03-26 04:09:40,035 [INFO] DbBoards:232 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2021-03-26 04:09:40,035 [INFO] APIGFXSelector:72 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/mcu/
+2021-03-26 04:09:40,036 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 04:09:40,037 [INFO] DbMcusAds:72 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 04:09:40,037 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 04:09:40,037 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 04:09:40,037 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 04:09:40,037 [INFO] DbMcusJson:59 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 04:09:40,037 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 04:09:40,038 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 04:09:40,038 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 04:09:40,038 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 04:09:40,038 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 04:09:40,038 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 04:09:40,038 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-03-26 04:09:40,058 [INFO] ApplicationProperties:181 - Using Application install path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541
+2021-03-26 04:09:40,060 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=]
+2021-03-26 04:09:40,061 [INFO] PluginManage:292 - Check plugin analytics
+2021-03-26 04:09:40,099 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2021-03-26 04:09:40,099 [INFO] PluginManage:292 - Check plugin clock
+2021-03-26 04:09:40,114 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2021-03-26 04:09:40,114 [INFO] PluginManage:292 - Check plugin ddr
+2021-03-26 04:09:40,117 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2021-03-26 04:09:40,117 [INFO] PluginManage:292 - Check plugin filemanager
+2021-03-26 04:09:40,249 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2021-03-26 04:09:40,250 [INFO] PluginManage:292 - Check plugin ipmanager
+2021-03-26 04:09:40,259 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2021-03-26 04:09:40,260 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2021-03-26 04:09:40,269 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2021-03-26 04:09:40,269 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2021-03-26 04:09:40,296 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2021-03-26 04:09:40,297 [INFO] PluginManage:292 - Check plugin power
+2021-03-26 04:09:40,312 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2021-03-26 04:09:40,312 [INFO] PluginManage:292 - Check plugin projectmanager
+2021-03-26 04:09:40,334 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2021-03-26 04:09:40,334 [INFO] PluginManage:292 - Check plugin thirdparty
+2021-03-26 04:09:40,443 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/hoang/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 62 ms. number of Sw pack : 22
+2021-03-26 04:09:40,461 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2021-03-26 04:09:40,461 [INFO] PluginManage:292 - Check plugin tools
+2021-03-26 04:09:40,465 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2021-03-26 04:09:40,465 [INFO] PluginManage:292 - Check plugin updater
+2021-03-26 04:09:40,481 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2021-03-26 04:09:40,482 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2021-03-26 04:09:40,726 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2021-03-26 04:09:40,818 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,819 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2021-03-26 04:09:40,822 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,822 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2021-03-26 04:09:40,825 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,825 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2021-03-26 04:09:40,827 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,828 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2021-03-26 04:09:40,832 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,833 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2021-03-26 04:09:40,836 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,836 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2021-03-26 04:09:40,843 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,844 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2021-03-26 04:09:40,847 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,848 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2021-03-26 04:09:40,856 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,856 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2021-03-26 04:09:40,866 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,867 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2021-03-26 04:09:40,870 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,870 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2021-03-26 04:09:40,875 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,875 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2021-03-26 04:09:40,882 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,882 [INFO] PluginManager:200 - loadIPPluginJar : add gfxsimulator
+2021-03-26 04:09:40,893 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,894 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2021-03-26 04:09:40,900 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,901 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2021-03-26 04:09:40,904 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,905 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2021-03-26 04:09:40,907 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,908 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2021-03-26 04:09:40,912 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,912 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2021-03-26 04:09:40,916 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,916 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2021-03-26 04:09:40,921 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,921 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2021-03-26 04:09:40,924 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,924 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2021-03-26 04:09:40,931 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,931 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2021-03-26 04:09:40,936 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,936 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2021-03-26 04:09:40,940 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,940 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2021-03-26 04:09:40,944 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,944 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2021-03-26 04:09:40,951 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,956 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2021-03-26 04:09:40,958 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,959 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2021-03-26 04:09:40,965 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,965 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2021-03-26 04:09:40,971 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,971 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2021-03-26 04:09:40,978 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,978 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2021-03-26 04:09:40,983 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,984 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2021-03-26 04:09:40,987 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:40,987 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2021-03-26 04:09:41,004 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:41,004 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2021-03-26 04:09:41,008 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:41,009 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2021-03-26 04:09:41,013 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:41,013 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2021-03-26 04:09:41,016 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:41,017 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2021-03-26 04:09:41,021 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:41,022 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2021-03-26 04:09:41,028 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:09:41,029 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2021-03-26 04:09:41,628 [INFO] BoardConnectionPanel:220 - [DDR PANEL] osNameString: Windows
+2021-03-26 04:09:41,807 [INFO] BoardConnectionPanel:3149 - [DDR PANEL] STM32CubeIDE environment
+2021-03-26 04:09:41,808 [INFO] MainDdrPanel:100 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2021-03-26 04:09:42,033 [FATAL] Updater:277 - Updater called before beeing initialized
+2021-03-26 04:09:42,262 [FATAL] Updater:277 - Updater called before beeing initialized
+2021-03-26 04:09:42,273 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2021-03-26 04:09:42,274 [FATAL] Updater:277 - Updater called before beeing initialized
+2021-03-26 04:09:42,278 [INFO] BoardConnectionPanel:3149 - [DDR PANEL] STM32CubeIDE environment
+2021-03-26 04:09:42,279 [INFO] MainDdrPanel:100 - [DDR PANEL] GETTER - cubeProgrammerPath is: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin
+2021-03-26 04:09:42,285 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin\STM32_Programmer_CLI.exe -l
+2021-03-26 04:09:43,465 [FATAL] Updater:277 - Updater called before beeing initialized
+2021-03-26 04:09:43,465 [ERROR] IntegrityCheckThread:230 - Cannot obtain thirdParties list 21
+2021-03-26 04:09:43,465 [ERROR] IntegrityCheckThread:99 - Unexpected exception IntegrityCheckThread Thread: Updater error
+2021-03-26 04:09:43,466 [INFO] ThirdPartyDb:264 - Close Third Party DataBase File (C:/Users/hoang/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2021-03-26 04:09:48,333 [INFO] MainDdrPanel:90 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin
+2021-03-26 04:09:48,342 [INFO] Updater:886 - Updater Version found : 5.4.0
+2021-03-26 04:09:48,385 [INFO] ApplicationProperties:181 - Using Application install path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541
+2021-03-26 04:09:48,564 [INFO] MainUpdater:2232 - connection check result : 10
+2021-03-26 04:09:48,564 [INFO] MainUpdater:2859 - Updater definition file requires update
+2021-03-26 04:09:48,566 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2021-03-26 04:09:48,566 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.40
+2021-03-26 04:09:48,615 [INFO] ServerAccessManage:348 - Download File updaters.zip
+2021-03-26 04:09:48,757 [INFO] FileExtend:210 - Unzip File : updaters.zip
+2021-03-26 04:09:48,758 [INFO] FileExtend:225 - Standard Zip Deflate
+2021-03-26 04:09:49,038 [INFO] ServerAccessManage:348 - Download File PacksControlFlags.xml
+2021-03-26 04:09:49,087 [INFO] ServerAccessManage:348 - Download File cubemx.pidx
+2021-03-26 04:09:49,181 [INFO] LoadServerUpdatesThread:287 - End of LoadServerUpdate Thread
+2021-03-26 04:09:49,251 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2021-03-26 04:09:49,411 [INFO] MainUpdater:2232 - connection check result : 10
+2021-03-26 04:09:49,413 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2021-03-26 04:09:49,513 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2021-03-26 04:09:49,536 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2021-03-26 04:09:49,541 [INFO] DbMcusXml:106 - Load MCU database from C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/families.xml
+2021-03-26 04:09:50,768 [INFO] DbMcusJson:87 - JSON generation date=Mon Feb 08 20:35:07 ICT 2021 (1612791307)
+2021-03-26 04:09:52,251 [INFO] DbMcus:193 - Found 1544 MCUs (1504 are supported by CubeMX, 1504 are visible in CubeMX)
+2021-03-26 04:09:52,252 [INFO] ApiDb:158 - Load user favorites file C:\Users\hoang/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-03-26 04:09:52,252 [INFO] ApiDb:163 - User favorites MCUs=[]
+2021-03-26 04:09:52,253 [INFO] DbMcus:204 - Set 0 / 0 favorites MCUs
+2021-03-26 04:09:53,718 [INFO] DbMcusAds:130 - JSON generation date=Wed Feb 20 23:46:15 ICT 2019 (1550681175)
+2021-03-26 04:09:53,908 [INFO] ServerAccessManage:348 - Download File 
+2021-03-26 04:09:54,100 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2021-03-26 04:09:54,119 [INFO] McuDetailPanel:180 - Set advertising image to C:/Users/hoang/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2021-03-26 04:09:55,479 [INFO] ServerAccessManage:348 - Download File mcusDocs.json
+2021-03-26 04:09:56,120 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2021-03-26 04:09:56,198 [INFO] ServerAccessManage:348 - Download File mcusFeaturesAndDescription.json
+2021-03-26 04:09:57,225 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2021-03-26 04:09:57,709 [INFO] ServerAccessManage:348 - Download File mcusAds.json
+2021-03-26 04:09:57,754 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2021-03-26 04:09:57,844 [INFO] ServerAccessManage:348 - Download File boardsDocs.json
+2021-03-26 04:09:57,917 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2021-03-26 04:09:58,006 [INFO] ServerAccessManage:348 - Download File boards.json
+2021-03-26 04:09:58,105 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2021-03-26 04:10:09,803 [INFO] ServerAccessManage:348 - Download File crdb.zip
+2021-03-26 04:10:09,946 [INFO] FileExtend:210 - Unzip File : crdb.zip
+2021-03-26 04:10:09,949 [INFO] FileExtend:225 - Standard Zip Deflate
+2021-03-26 04:10:10,001 [INFO] LoadUrlFilesThread:134 - End of LoadUrlFiles Thread
+2021-03-26 04:10:10,014 [INFO] DbMcusDocs:126 - JSON generation date=Mon Feb 08 20:35:07 ICT 2021 (1612791307)
+2021-03-26 04:10:10,416 [INFO] DbMcusDocs:61 - Found 617 MCUs documents
+2021-03-26 04:10:10,417 [INFO] ApiDb:186 - Save user favorites file C:\Users\hoang/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-03-26 04:10:10,417 [INFO] ApiDb:191 - User favorites MCUs=[]
+2021-03-26 04:10:10,418 [INFO] DbMcusXml:106 - Load MCU database from C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/families.xml
+2021-03-26 04:10:11,067 [INFO] DbMcusJson:87 - JSON generation date=Mon Feb 08 20:35:07 ICT 2021 (1612791307)
+2021-03-26 04:10:11,989 [INFO] DbMcus:193 - Found 1544 MCUs (1504 are supported by CubeMX, 1504 are visible in CubeMX)
+2021-03-26 04:10:11,989 [INFO] ApiDb:158 - Load user favorites file C:\Users\hoang/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-03-26 04:10:11,989 [INFO] ApiDb:163 - User favorites MCUs=[]
+2021-03-26 04:10:11,989 [INFO] DbMcus:204 - Set 0 / 0 favorites MCUs
+2021-03-26 04:10:12,098 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2021-03-26 04:10:12,540 [INFO] DbBoardsDocs:118 - JSON generation date=Mon Feb 08 20:35:07 ICT 2021 (1612791307)
+2021-03-26 04:10:12,582 [INFO] DbBoardsPdsc:92 - Found 19 items
+2021-03-26 04:10:12,585 [INFO] DbBoardsPdsc:92 - Found 9 items
+2021-03-26 04:10:12,591 [INFO] DbBoardsPdsc:92 - Found 27 items
+2021-03-26 04:10:12,594 [INFO] DbBoardsPdsc:92 - Found 1 items
+2021-03-26 04:10:12,604 [INFO] DbBoardsPdsc:92 - Found 38 items
+2021-03-26 04:10:12,636 [INFO] DbBoardsPdsc:92 - Found 38 items
+2021-03-26 04:10:12,638 [INFO] DbBoardsPdsc:92 - Found 1 items
+2021-03-26 04:10:12,680 [INFO] DbBoardsJson:79 - JSON generation date=Thu Feb 04 23:53:45 ICT 2021 (1612457625)
+2021-03-26 04:10:12,692 [INFO] DbBoards:120 - Found 145 boards (132 are supported by CubeMX)
+2021-03-26 04:10:12,716 [INFO] DbBoardsDocs:118 - JSON generation date=Mon Feb 08 20:35:07 ICT 2021 (1612791307)
+2021-03-26 04:10:12,743 [INFO] DbBoardsDocs:57 - Found 193 boards documents
+2021-03-26 04:10:12,744 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2021-03-26 04:10:12,748 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2021-03-26 04:10:12,748 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2021-03-26 04:10:12,748 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2021-03-26 04:10:12,749 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2021-03-26 04:10:12,750 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2021-03-26 04:10:12,751 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2021-03-26 04:10:12,752 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2021-03-26 04:10:12,754 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2021-03-26 04:10:12,758 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2021-03-26 04:10:12,759 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2021-03-26 04:10:12,759 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2021-03-26 04:10:12,760 [WARN] DbBoards:130 - board STEVAL-STWINKT1B has no document id list !
+2021-03-26 04:10:13,335 [ERROR] DbBoards:192 - Image file not found for board P-NUCLEO-WB55: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/p-nucleo-wb55_small.jpg
+2021-03-26 04:10:13,701 [ERROR] DbBoards:192 - Image file not found for board STM32G0316-DISCO: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32g0316discovery_small.jpg
+2021-03-26 04:10:14,199 [ERROR] DbBoards:192 - Image file not found for board STM32H7B3I-DK: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32h7b3i-dk_small.jpg
+2021-03-26 04:10:14,199 [ERROR] DbBoards:192 - Image file not found for board STM32H7B3I-EVAL: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32h7b3ieval_small.jpg
+2021-03-26 04:10:14,205 [ERROR] DbBoards:192 - Image file not found for board STM32L4P5G-DK: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32l4p5g-dk_small.jpg
+2021-03-26 04:10:14,206 [ERROR] DbBoards:192 - Image file not found for board B-L4S5I-IOT01A: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/B-L4S5I-IOT01A_small.jpg
+2021-03-26 04:10:14,206 [ERROR] DbBoards:192 - Image file not found for board STM32H735G-DK: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/STM32H735G_DK_small.jpg
+2021-03-26 04:10:14,211 [ERROR] DbBoards:192 - Image file not found for board NUCLEO-WL55JC: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/nucleo-wl55jc-small.jpg
+2021-03-26 04:10:14,211 [ERROR] DbBoards:192 - Image file not found for board STEVAL-STWINKT1B: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/steval-stwinkt1b_small.jpg
+2021-03-26 04:10:14,212 [INFO] ApiDb:158 - Load user favorites file C:\Users\hoang/.stm32cubeide/favorites.boards.txt: 1 item(s)
+2021-03-26 04:10:14,212 [INFO] ApiDb:163 - User favorites Boards=[STM32F411E-DISCO]
+2021-03-26 04:10:14,212 [INFO] DbBoards:209 - Set 1 / 1 favorites Boards
+2021-03-26 04:10:14,222 [INFO] DbBoardsDocs:57 - Found 386 boards documents
+2021-03-26 04:10:14,223 [INFO] ApiDb:186 - Save user favorites file C:\Users\hoang/.stm32cubeide/favorites.boards.txt: 1 item(s)
+2021-03-26 04:10:14,223 [INFO] ApiDb:191 - User favorites Boards=[STM32F411E-DISCO]
+2021-03-26 04:10:14,227 [INFO] DbBoardsPdsc:92 - Found 19 items
+2021-03-26 04:10:14,230 [INFO] DbBoardsPdsc:92 - Found 9 items
+2021-03-26 04:10:14,233 [INFO] DbBoardsPdsc:92 - Found 27 items
+2021-03-26 04:10:14,236 [INFO] DbBoardsPdsc:92 - Found 1 items
+2021-03-26 04:10:14,241 [INFO] DbBoardsPdsc:92 - Found 38 items
+2021-03-26 04:10:14,245 [INFO] DbBoardsPdsc:92 - Found 38 items
+2021-03-26 04:10:14,247 [INFO] DbBoardsPdsc:92 - Found 1 items
+2021-03-26 04:10:14,267 [INFO] DbBoardsJson:79 - JSON generation date=Thu Feb 04 23:53:45 ICT 2021 (1612457625)
+2021-03-26 04:10:14,280 [INFO] DbBoards:120 - Found 145 boards (132 are supported by CubeMX)
+2021-03-26 04:10:14,282 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2021-03-26 04:10:14,285 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2021-03-26 04:10:14,285 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2021-03-26 04:10:14,286 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2021-03-26 04:10:14,286 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2021-03-26 04:10:14,287 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2021-03-26 04:10:14,288 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2021-03-26 04:10:14,288 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2021-03-26 04:10:14,289 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2021-03-26 04:10:14,290 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2021-03-26 04:10:14,290 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2021-03-26 04:10:14,291 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2021-03-26 04:10:14,291 [WARN] DbBoards:130 - board STEVAL-STWINKT1B has no document id list !
+2021-03-26 04:10:14,564 [ERROR] DbBoards:192 - Image file not found for board P-NUCLEO-WB55: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/p-nucleo-wb55_small.jpg
+2021-03-26 04:10:14,724 [ERROR] DbBoards:192 - Image file not found for board STM32G0316-DISCO: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32g0316discovery_small.jpg
+2021-03-26 04:10:14,994 [ERROR] DbBoards:192 - Image file not found for board STM32H7B3I-DK: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32h7b3i-dk_small.jpg
+2021-03-26 04:10:14,994 [ERROR] DbBoards:192 - Image file not found for board STM32H7B3I-EVAL: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32h7b3ieval_small.jpg
+2021-03-26 04:10:15,002 [ERROR] DbBoards:192 - Image file not found for board STM32L4P5G-DK: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32l4p5g-dk_small.jpg
+2021-03-26 04:10:15,002 [ERROR] DbBoards:192 - Image file not found for board B-L4S5I-IOT01A: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/B-L4S5I-IOT01A_small.jpg
+2021-03-26 04:10:15,002 [ERROR] DbBoards:192 - Image file not found for board STM32H735G-DK: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/STM32H735G_DK_small.jpg
+2021-03-26 04:10:15,008 [ERROR] DbBoards:192 - Image file not found for board NUCLEO-WL55JC: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/nucleo-wl55jc-small.jpg
+2021-03-26 04:10:15,008 [ERROR] DbBoards:192 - Image file not found for board STEVAL-STWINKT1B: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/steval-stwinkt1b_small.jpg
+2021-03-26 04:10:15,009 [INFO] ApiDb:158 - Load user favorites file C:\Users\hoang/.stm32cubeide/favorites.boards.txt: 1 item(s)
+2021-03-26 04:10:15,009 [INFO] ApiDb:163 - User favorites Boards=[STM32F411E-DISCO]
+2021-03-26 04:10:15,009 [INFO] DbBoards:209 - Set 1 / 1 favorites Boards
+2021-03-26 04:10:15,308 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2021-03-26 04:10:15,310 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2021-03-26 04:10:15,731 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2021-03-26 04:10:15,731 [INFO] BoardDetailPanel:179 - Set advertising image to C:/Users/hoang/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2021-03-26 04:10:15,784 [INFO] ToolPreferences:109 - Table BoardList, key=mcufinder_cubeide.boardlist: column name not found=Commercial Part No
+2021-03-26 04:10:15,785 [INFO] BoardFilterPanel:211 - Update 1 favorites Boards
+2021-03-26 04:10:16,143 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\hoang\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2021-03-26 04:10:16,394 [INFO] ToolPreferences:109 - Table BoardList, key=mcufinder_cubeide.boardlist: column name not found=Commercial Part No
+2021-03-26 04:10:55,415 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.2
+2021-03-26 04:10:55,416 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.1
+2021-03-26 04:10:55,416 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.0
+2021-03-26 04:10:59,534 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] File copied successfully!!
+2021-03-26 04:11:00,667 [INFO] MainUpdater:2232 - connection check result : 10
+2021-03-26 04:11:00,669 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2021-03-26 04:11:00,727 [INFO] MicroXplorer:390 - Change Database Path : 
+2021-03-26 04:11:00,727 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.40
+2021-03-26 04:11:00,729 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2021-03-26 04:11:00,730 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 412007064 Bytes (743440384)
+2021-03-26 04:11:00,731 [INFO] OpenFileManager:269 - Change cursor
+2021-03-26 04:11:02,640 [INFO] Rule:205 - rule SPDIFRX instance for mcu is applicable
+2021-03-26 04:11:02,640 [INFO] Rule:205 - rule Rename Tracer Mode is applicable
+2021-03-26 04:11:02,640 [INFO] Rule:205 - rule SPDIFRX instance value for IP SPDIFRX is applicable
+2021-03-26 04:11:02,640 [INFO] Rule:205 - rule SPDIFRX instance for signal is applicable
+2021-03-26 04:11:02,640 [INFO] Rule:205 - rule SPDIFRX instance for project manager is applicable
+2021-03-26 04:11:02,640 [INFO] Rule:205 - rule SPDIFRX instance for project manager is applicable
+2021-03-26 04:11:02,640 [INFO] Rule:205 - rule ADC Scan  fix with FW F7 is applicable
+2021-03-26 04:11:02,641 [INFO] Rule:205 - rule ADC Scan  fix with FW F7 is applicable
+2021-03-26 04:11:02,641 [INFO] Rule:205 - rule Add RTC Activate Clock Source is applicable
+2021-03-26 04:11:02,641 [INFO] Rule:205 - rule Add RTC Activate Calendar 1 is applicable
+2021-03-26 04:11:02,641 [INFO] Rule:205 - rule Add RTC Activate Calendar 2 is applicable
+2021-03-26 04:11:02,641 [INFO] Rule:205 - rule Add RTC Activate Calendar 3 is applicable
+2021-03-26 04:11:02,641 [INFO] Rule:205 - rule UART/USART TX Mode is applicable
+2021-03-26 04:11:02,641 [INFO] Rule:205 - rule UART/USART RX Mode is applicable
+2021-03-26 04:11:02,641 [INFO] Rule:205 - rule UART/USART RX TX Mode is applicable
+2021-03-26 04:11:02,641 [INFO] Rule:205 - rule UART/USART PARITY NONE is applicable
+2021-03-26 04:11:02,641 [INFO] Rule:205 - rule UART/USART PARITY EVEN is applicable
+2021-03-26 04:11:02,641 [INFO] Rule:205 - rule UART/USART PARITY ODD is applicable
+2021-03-26 04:11:02,641 [INFO] Rule:205 - rule USART StopBits 1 is applicable
+2021-03-26 04:11:02,641 [INFO] Rule:205 - rule USART StopBits 2 is applicable
+2021-03-26 04:11:02,641 [INFO] Rule:205 - rule USART StopBits 1.5 is applicable
+2021-03-26 04:11:02,641 [INFO] Rule:205 - rule USART StopBits 0.5 is applicable
+2021-03-26 04:11:02,641 [INFO] Rule:205 - rule UART/USART WORD LENGTH 7 is applicable
+2021-03-26 04:11:02,642 [INFO] Rule:205 - rule UART/USART WORD LENGTH 8 is applicable
+2021-03-26 04:11:02,642 [INFO] Rule:205 - rule UART/USART WORD LENGTH 9 is applicable
+2021-03-26 04:11:02,642 [INFO] Rule:205 - rule Rename FMC NAND NCE signal is applicable
+2021-03-26 04:11:02,642 [INFO] Rule:205 - rule Rename FMC NAND INT signal is applicable
+2021-03-26 04:11:02,642 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv L4 family is applicable
+2021-03-26 04:11:02,642 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv L4 family is applicable
+2021-03-26 04:11:02,642 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F3 family is applicable
+2021-03-26 04:11:02,642 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv F3 family is applicable
+2021-03-26 04:11:02,643 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv Goldfish serie is applicable
+2021-03-26 04:11:02,643 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv Goldfish serie is applicable
+2021-03-26 04:11:02,643 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv L0 family is applicable
+2021-03-26 04:11:02,643 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F0 family is applicable
+2021-03-26 04:11:02,643 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConvn L1 family is applicable
+2021-03-26 04:11:02,643 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv L1 family is applicable
+2021-03-26 04:11:02,643 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F1 family is applicable
+2021-03-26 04:11:02,643 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv F1 family is applicable
+2021-03-26 04:11:02,643 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F7 family is applicable
+2021-03-26 04:11:02,643 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv F7 family is applicable
+2021-03-26 04:11:02,643 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F4 and F2 family is applicable
+2021-03-26 04:11:02,644 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv F4 and F2 family is applicable
+2021-03-26 04:11:02,644 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0  is applicable
+2021-03-26 04:11:02,644 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0  is applicable
+2021-03-26 04:11:02,644 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0 is applicable
+2021-03-26 04:11:02,644 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0 is applicable
+2021-03-26 04:11:02,644 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0  is applicable
+2021-03-26 04:11:02,644 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0 is applicable
+2021-03-26 04:11:02,644 [INFO] Rule:205 - rule Rename USB_OE Signal is applicable
+2021-03-26 04:11:02,644 [INFO] Rule:205 - rule Rename Activate_OE Mode is applicable
+2021-03-26 04:11:02,645 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PC14/OSC32_IN -> PC14-OSC32_IN (PC14) is applicable
+2021-03-26 04:11:02,645 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PC15/OSC32_OUT -> PC15-OSC32_OUT (PC15) is applicable
+2021-03-26 04:11:02,645 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PH0/OSC_IN -> PH0-OSC_IN (PH0) is applicable
+2021-03-26 04:11:02,645 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PH1/OSC_OUT -> PH1-OSC_OUT (PH1) is applicable
+2021-03-26 04:11:02,645 [INFO] Rule:205 - rule Rename DIE462 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2021-03-26 04:11:02,645 [INFO] Rule:205 - rule Rename DIE415 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2021-03-26 04:11:02,645 [INFO] Rule:205 - rule Rename DIE462 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2021-03-26 04:11:02,645 [INFO] Rule:205 - rule Rename DIE415 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2021-03-26 04:11:02,645 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PA15 -> PA15 (JTDI) is applicable
+2021-03-26 04:11:02,646 [INFO] Rule:205 - rule Rename DIE462 pin PB3 -> PB3 (JTD0/TRACESWO) is applicable
+2021-03-26 04:11:02,646 [INFO] Rule:205 - rule Rename DIE415 pin PB3 -> PB3 (JTD0-TRACESWO) is applicable
+2021-03-26 04:11:02,646 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PB4 -> PB4 (NJTRST) is applicable
+2021-03-26 04:11:02,646 [INFO] Rule:205 - rule Rename DIE462 pin PH3/BOOT0 -> PH3-BOOT0 (BOOT0) is applicable
+2021-03-26 04:11:02,646 [INFO] Rule:205 - rule Rename CRYP DataEncryptionTypesList to Algorithm is applicable
+2021-03-26 04:11:02,646 [INFO] Rule:205 - rule Rename AES DataEncryptionTypesList to Algorithm is applicable
+2021-03-26 04:11:02,646 [INFO] Rule:205 - rule Rename TDESECB to CRYP_TDES_ECB is applicable
+2021-03-26 04:11:02,646 [INFO] Rule:205 - rule Rename TDESCBC to CRYP_TDES_CBC is applicable
+2021-03-26 04:11:02,646 [INFO] Rule:205 - rule Rename DESECB to CRYP_DES_ECB is applicable
+2021-03-26 04:11:02,646 [INFO] Rule:205 - rule Rename DESCBC to CRYP_DES_CBC is applicable
+2021-03-26 04:11:02,646 [INFO] Rule:205 - rule Rename AESECB to CRYP_AES_ECB is applicable
+2021-03-26 04:11:02,647 [INFO] Rule:205 - rule Rename AESCBC to CRYP_AES_CBC is applicable
+2021-03-26 04:11:02,647 [INFO] Rule:205 - rule Rename AESCTR to CRYP_AES_CTR is applicable
+2021-03-26 04:11:02,647 [INFO] Rule:205 - rule Rename AESGCM to CRYP_AES_GCM is applicable
+2021-03-26 04:11:02,647 [INFO] Rule:205 - rule Rename AESCCM to CRYP_AES_CCM is applicable
+2021-03-26 04:11:02,647 [INFO] Rule:205 - rule Rename CAN TimeSeg1 to BS1 is applicable
+2021-03-26 04:11:02,647 [INFO] Rule:205 - rule Rename CAN TimeSeg2 to BS2 is applicable
+2021-03-26 04:11:02,647 [INFO] Rule:205 - rule Rename CAN SyncJumpWidth to SJW is applicable
+2021-03-26 04:11:02,647 [INFO] Rule:205 - rule TimeTriggeredMode to TTCM is applicable
+2021-03-26 04:11:02,648 [INFO] Rule:205 - rule Rename CAN AutoBusOff to ABOM is applicable
+2021-03-26 04:11:02,648 [INFO] Rule:205 - rule Rename CAN AutoWakeUp to AWUM is applicable
+2021-03-26 04:11:02,648 [INFO] Rule:205 - rule Rename CAN AutoRetransmission to NART is applicable
+2021-03-26 04:11:02,648 [INFO] Rule:205 - rule Rename CAN ReceiveFifoLocked to RFLM is applicable
+2021-03-26 04:11:02,648 [INFO] Rule:205 - rule Rename CAN TransmitFifoPriority to TXFP is applicable
+2021-03-26 04:11:02,648 [INFO] Rule:205 - rule Rename HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGH in HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGHZ is applicable
+2021-03-26 04:11:02,648 [INFO] Rule:205 - rule Rename TIMER TIM_CLEARINPUTSOURCE_OCREFCLR in  TIMER TIM_CLEARINPUTSOURCE_NONE for F7 family is applicable
+2021-03-26 04:11:02,649 [INFO] Rule:205 - rule FDCAN_R1 - Rename FDCAN mode Master into Classic is applicable
+2021-03-26 04:11:02,649 [INFO] Rule:205 - rule FDCAN_R2 - Rename FDCAN mode Slave into Classic is applicable
+2021-03-26 04:11:02,649 [INFO] Rule:205 - rule FDCAN1_R3 - if PA10.Mode=FullDuplex, add Pin PA12 is applicable
+2021-03-26 04:11:02,649 [INFO] Rule:205 - rule FDCAN1_R3 - if PA9.Mode=FullDuplex, add Pin PA11 is applicable
+2021-03-26 04:11:02,649 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_1 - if PE1.Mode=FullDuplex, add Pin PB9 is applicable
+2021-03-26 04:11:02,649 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_1 - if PE0.Mode=FullDuplex, add Pin PB8 is applicable
+2021-03-26 04:11:02,649 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_2 - if PD5.Mode=FullDuplex, add Pin PD1 is applicable
+2021-03-26 04:11:02,650 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_2 - if PD4.Mode=FullDuplex, add Pin PD0 is applicable
+2021-03-26 04:11:02,650 [INFO] Rule:205 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA10 is applicable
+2021-03-26 04:11:02,650 [INFO] Rule:205 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA9 is applicable
+2021-03-26 04:11:02,650 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE1 is applicable
+2021-03-26 04:11:02,650 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE0 is applicable
+2021-03-26 04:11:02,650 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD5 is applicable
+2021-03-26 04:11:02,650 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD4 is applicable
+2021-03-26 04:11:02,650 [INFO] Rule:205 - rule FDCAN2_R3 - if PD10.Mode=FullDuplex, add Pin PB13 is applicable
+2021-03-26 04:11:02,651 [INFO] Rule:205 - rule FDCAN2_R3 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2021-03-26 04:11:02,651 [INFO] Rule:205 - rule FDCAN2_R3 - Alternatepin_1 - if PB7.Mode=FullDuplex, add Pin PB6 is applicable
+2021-03-26 04:11:02,651 [INFO] Rule:205 - rule FDCAN2_R3 - Alternatepin_1 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2021-03-26 04:11:02,651 [INFO] Rule:205 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD10 is applicable
+2021-03-26 04:11:02,651 [INFO] Rule:205 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD9 is applicable
+2021-03-26 04:11:02,651 [INFO] Rule:205 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PB7 is applicable
+2021-03-26 04:11:02,651 [INFO] Rule:205 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD6 is applicable
+2021-03-26 04:11:02,651 [INFO] Rule:205 - rule USART TxPinLevelInvertParam Mode is applicable
+2021-03-26 04:11:02,651 [INFO] Rule:205 - rule USART RxPinLevelInvertParam Mode is applicable
+2021-03-26 04:11:02,651 [INFO] Rule:205 - rule USART DataInvertParam Mode is applicable
+2021-03-26 04:11:02,651 [INFO] Rule:205 - rule USART SwapParam Mode is applicable
+2021-03-26 04:11:02,652 [INFO] Rule:205 - rule USART OverrunDisableParam Mode is applicable
+2021-03-26 04:11:02,652 [INFO] Rule:205 - rule USART DMADisableonRxErrorParam Mode is applicable
+2021-03-26 04:11:02,652 [INFO] Rule:205 - rule USART MSBFirstParam Mode is applicable
+2021-03-26 04:11:02,652 [INFO] Rule:205 - rule Update MwName for USB_DEVICE is applicable
+2021-03-26 04:11:02,652 [INFO] Rule:205 - rule Change PWR_Regulator_Voltage_Scale Default Value for RCC  H7 family is applicable
+2021-03-26 04:11:02,652 [INFO] Rule:205 - rule UART/USART IPParameter rename Prescaler parameter to ClockPrescaler is applicable
+2021-03-26 04:11:02,652 [INFO] Rule:205 - rule UART/USART Prescaler rename Prescaler parameter to ClockPrescaler is applicable
+2021-03-26 04:11:02,652 [INFO] Rule:205 - rule TIM1CLockSelection is applicable
+2021-03-26 04:11:02,652 [INFO] Rule:205 - rule TIM15CLockSelection is applicable
+2021-03-26 04:11:02,652 [INFO] Rule:205 - rule align RCC SDMMC3CLockSelection default value on MP1 is applicable
+2021-03-26 04:11:02,652 [INFO] Rule:205 - rule align RCC SDMMC12CLockSelection default value on MP1 is applicable
+2021-03-26 04:11:02,652 [INFO] Rule:205 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2021-03-26 04:11:02,652 [INFO] Rule:205 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2021-03-26 04:11:02,653 [INFO] Rule:205 - rule align RCC SPI6CLockSelection default value on MP1 is applicable
+2021-03-26 04:11:02,653 [INFO] Rule:205 - rule align RCC LPTIM23CLockSelection default value on MP1 is applicable
+2021-03-26 04:11:02,653 [INFO] Rule:205 - rule align RCC LPTIM1CLockSelection default value on MP1 is applicable
+2021-03-26 04:11:02,653 [INFO] Rule:205 - rule align RCC USART1CLockSelection default value on MP1 is applicable
+2021-03-26 04:11:02,653 [INFO] Rule:205 - rule align RCC USART24CLockSelection default value on MP1 is applicable
+2021-03-26 04:11:02,653 [INFO] Rule:205 - rule align RCC USART6CLockSelection default value on MP1 is applicable
+2021-03-26 04:11:02,653 [INFO] Rule:205 - rule align RCC UART78CLockSelection default value on MP1 is applicable
+2021-03-26 04:11:02,653 [INFO] Rule:205 - rule align RCC USART35CLockSelection default value on MP1 is applicable
+2021-03-26 04:11:02,653 [INFO] Rule:205 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2021-03-26 04:11:02,653 [INFO] Rule:205 - rule align RCC I2C46CLockSelection BCLK value on MP1 is applicable
+2021-03-26 04:11:02,653 [INFO] Rule:205 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2021-03-26 04:11:02,653 [INFO] Rule:205 - rule align RCC I2C12CLockSelection default value on MP1 is applicable
+2021-03-26 04:11:02,653 [INFO] Rule:205 - rule align RCC I2C35CLockSelection default value on MP1 is applicable
+2021-03-26 04:11:02,654 [INFO] Rule:205 - rule align RCC LPTIM45CLockSelection default value on MP1 is applicable
+2021-03-26 04:11:02,654 [INFO] Rule:205 - rule Rename DCMI PIXCK signal is applicable
+2021-03-26 04:11:02,654 [INFO] Rule:205 - rule Change Default Value for I2C46CLockSelection MP1 family is applicable
+2021-03-26 04:11:02,654 [INFO] Rule:205 - rule Change Default Value for UART for G4, G0 and WB families is applicable
+2021-03-26 04:11:02,654 [INFO] Rule:205 - rule Change Default Value for USART for G4, G0 and WB families is applicable
+2021-03-26 04:11:02,654 [INFO] Rule:205 - rule Change Default Value for USART for G4 family is applicable
+2021-03-26 04:11:02,679 [INFO] DbConfProperties:222 - Apply Compatibility (46/144 Rules)
+2021-03-26 04:11:02,702 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2021-03-26 04:11:03,004 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 473619184 Bytes (743440384)
+2021-03-26 04:11:03,029 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/hoang/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 12 ms. number of Sw pack : 22
+2021-03-26 04:11:03,131 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 5.2.0
+2021-03-26 04:11:03,132 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.1.0
+2021-03-26 04:11:03,132 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.1.0
+2021-03-26 04:11:03,132 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.0.0
+2021-03-26 04:11:03,132 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.1.0
+2021-03-26 04:11:03,132 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.2.0
+2021-03-26 04:11:03,132 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.1
+2021-03-26 04:11:03,132 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 2.0.0
+2021-03-26 04:11:03,133 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 3.0.1
+2021-03-26 04:11:03,133 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.16.0
+2021-03-26 04:11:03,133 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.1.0
+2021-03-26 04:11:03,133 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.0
+2021-03-26 04:11:03,133 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2021-03-26 04:11:03,133 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.2
+2021-03-26 04:11:03,133 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.0.0
+2021-03-26 04:11:03,134 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.0.0
+2021-03-26 04:11:03,134 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.16.1
+2021-03-26 04:11:03,134 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.0
+2021-03-26 04:11:03,134 [INFO] ThirdParty:897 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 4.7.0
+2021-03-26 04:11:03,134 [INFO] ThirdParty:897 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2021-03-26 04:11:03,134 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 6.0.0
+2021-03-26 04:11:03,419 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2021-03-26 04:11:03,420 [INFO] PinOutPanel:1367 - setPackage(STM32F411VETx,LQFP100)
+2021-03-26 04:11:03,993 [INFO] UtilMem:74 - Before build in PCC Used Memory: 581918304 Bytes (743440384)
+2021-03-26 04:11:04,714 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/hoang/.stm32cubemx/plugins/power
+2021-03-26 04:11:04,718 [INFO] UtilMem:74 - After build in PCC Used Memory: 595027544 Bytes (743440384)
+2021-03-26 04:11:04,732 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 04:11:04,732 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,732 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,733 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,733 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,733 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,733 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,733 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,734 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,734 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,734 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,734 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,734 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,734 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,735 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,735 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,735 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,735 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,736 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,736 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,736 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,736 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,737 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,737 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,737 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,737 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,738 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,738 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,738 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,738 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,739 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,739 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,739 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,739 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,740 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,740 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,740 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,741 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,741 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,741 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,742 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,742 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,742 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 04:11:04,748 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 04:11:04,773 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2021-03-26 04:11:04,893 [INFO] OpenFileManager:289 - Restore cursor
+2021-03-26 04:11:04,978 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 04:11:05,017 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 04:11:05,178 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 627533400 Bytes (743440384)
+2021-03-26 04:11:06,754 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 348087888 Bytes (743440384)
+2021-03-26 04:11:07,310 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: NVIC
+2021-03-26 04:11:07,310 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: SYS
+2021-03-26 04:11:07,311 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: GPIO
+2021-03-26 04:11:07,331 [INFO] CodeGenerator:598 - code generatio: config db path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\
+2021-03-26 04:11:08,106 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\license.tmp_save
+2021-03-26 04:11:08,611 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\license.tmp
+2021-03-26 04:11:09,012 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\gpio.tmp_save
+2021-03-26 04:11:09,280 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\gpio.tmp
+2021-03-26 04:11:09,425 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-03-26 04:11:09,427 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SYS
+2021-03-26 04:11:09,429 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-03-26 04:11:09,431 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2021-03-26 04:11:09,432 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-03-26 04:11:09,587 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Src\stm32f4xx_it.c_save
+2021-03-26 04:11:09,951 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Src\stm32f4xx_it.c
+2021-03-26 04:11:10,150 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Inc\stm32f4xx_it.h_save
+2021-03-26 04:11:10,406 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Inc\stm32f4xx_it.h
+2021-03-26 04:11:10,649 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Src\stm32f4xx_hal_msp.c_save
+2021-03-26 04:11:10,947 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Src\stm32f4xx_hal_msp.c
+2021-03-26 04:11:11,146 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\system.tmp_save
+2021-03-26 04:11:11,375 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\system.tmp
+2021-03-26 04:11:11,583 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-03-26 04:11:11,815 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Inc\stm32f4xx_hal_conf.h
+2021-03-26 04:11:11,920 [WARN] IPConfigManager:2673 - IP not found : gpio
+2021-03-26 04:11:11,921 [WARN] CodeGenerator:2697 - IP not found : gpio
+2021-03-26 04:11:12,071 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Inc\main.h_save
+2021-03-26 04:11:12,275 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Inc\main.h
+2021-03-26 04:11:12,489 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Src\main.c_save
+2021-03-26 04:11:12,731 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Src\main.c
+2021-03-26 04:11:16,198 [INFO] ProjectBuilder:1645 - Time for Copy HAL[1] : 2530mS.
+2021-03-26 04:11:16,227 [INFO] ProjectBuilder:2206 - Project Generator version: 3.5.2
+2021-03-26 04:11:16,463 [INFO] ConfigFileManager:953 - The Die is : DIE431
+2021-03-26 04:11:30,277 [INFO] ProjectBuilder:2373 - Time for Generating toolchain IDE Files: 14050mS.
+2021-03-26 04:11:30,296 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 18mS.
+2021-03-26 04:11:30,299 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 0mS.
+2021-03-26 04:11:36,087 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 04:11:37,812 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 04:11:37,832 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 04:11:40,201 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 04:11:42,208 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 04:11:42,328 [INFO] ApiDbMcu:445 - Load IP Config File for FREERTOS
+2021-03-26 04:11:42,616 [ERROR] RtosPanel:506 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2021-03-26 04:11:42,673 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 04:11:42,759 [ERROR] RtosPanel:506 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2021-03-26 04:11:42,768 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 04:11:50,165 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 04:11:50,165 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 04:11:50,165 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 04:11:51,884 [INFO] EditThreadDialog:688 - RAM SIZE (in KB): 128
+2021-03-26 04:11:51,884 [INFO] EditThreadDialog:690 - RAM SIZE (in words): 32768
+2021-03-26 04:12:16,457 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 04:12:16,457 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 04:12:16,457 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 04:12:16,602 [ERROR] RtosPanel:506 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2021-03-26 04:12:21,973 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 04:12:21,973 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 04:12:21,973 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 04:12:23,117 [INFO] EditThreadDialog:688 - RAM SIZE (in KB): 128
+2021-03-26 04:12:23,118 [INFO] EditThreadDialog:690 - RAM SIZE (in words): 32768
+2021-03-26 04:12:34,665 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 04:12:34,666 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 04:12:34,666 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 04:12:34,666 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 04:12:34,666 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 04:12:34,666 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 04:12:40,002 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 04:12:40,002 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 04:12:40,002 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 04:12:40,002 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 04:12:40,002 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 04:12:40,002 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 04:12:40,862 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 523057440 Bytes (774897664)
+2021-03-26 04:12:44,616 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 530919720 Bytes (774897664)
+2021-03-26 04:12:44,820 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 546648360 Bytes (774897664)
+2021-03-26 04:12:45,034 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: NVIC
+2021-03-26 04:12:45,034 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: FREERTOS
+2021-03-26 04:12:45,034 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: SYS
+2021-03-26 04:12:45,034 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: GPIO
+2021-03-26 04:12:45,053 [INFO] CodeGenerator:598 - code generatio: config db path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\
+2021-03-26 04:12:45,557 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\license.tmp_save
+2021-03-26 04:12:45,730 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\license.tmp
+2021-03-26 04:12:45,979 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\gpio.tmp_save
+2021-03-26 04:12:46,162 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\gpio.tmp
+2021-03-26 04:12:46,345 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-03-26 04:12:46,367 [INFO] Middleware:1071 - No code input for Bsp Dependency
+2021-03-26 04:12:46,514 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\rtos_inc.tmp_save
+2021-03-26 04:12:46,668 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\rtos_inc.tmp
+2021-03-26 04:12:46,870 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\rtos_vars.tmp_save
+2021-03-26 04:12:47,042 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\rtos_vars.tmp
+2021-03-26 04:12:47,267 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\rtos_pfp.tmp_save
+2021-03-26 04:12:47,480 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\rtos_pfp.tmp
+2021-03-26 04:12:47,693 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\rtos_HalInit.tmp_save
+2021-03-26 04:12:47,841 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\rtos_HalInit.tmp
+2021-03-26 04:12:48,055 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\rtos_start.tmp_save
+2021-03-26 04:12:48,183 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\rtos_start.tmp
+2021-03-26 04:12:48,382 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\rtos_threads.tmp_save
+2021-03-26 04:12:48,522 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\rtos_threads.tmp
+2021-03-26 04:12:48,720 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\rtos_user_threads.tmp_save
+2021-03-26 04:12:48,839 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\rtos_user_threads.tmp
+2021-03-26 04:12:49,053 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Inc\FreeRTOSConfig.h_save
+2021-03-26 04:12:49,242 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Inc\FreeRTOSConfig.h
+2021-03-26 04:12:49,471 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Src\freertos.c_save
+2021-03-26 04:12:49,768 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Src\freertos.c
+2021-03-26 04:12:49,823 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-03-26 04:12:49,825 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SYS
+2021-03-26 04:12:49,826 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-03-26 04:12:49,831 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2021-03-26 04:12:49,832 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-03-26 04:12:50,009 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Src\stm32f4xx_it.c_save
+2021-03-26 04:12:50,276 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Src\stm32f4xx_it.c
+2021-03-26 04:12:50,534 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Inc\stm32f4xx_it.h_save
+2021-03-26 04:12:50,768 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Inc\stm32f4xx_it.h
+2021-03-26 04:12:51,136 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Src\stm32f4xx_hal_msp.c_save
+2021-03-26 04:12:51,413 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Src\stm32f4xx_hal_msp.c
+2021-03-26 04:12:51,649 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\system.tmp_save
+2021-03-26 04:12:51,765 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\system.tmp
+2021-03-26 04:12:51,967 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2021-03-26 04:12:52,136 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Src\stm32f4xx_hal_timebase_tim.c
+2021-03-26 04:12:52,373 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-03-26 04:12:52,627 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Inc\stm32f4xx_hal_conf.h
+2021-03-26 04:12:52,743 [WARN] IPConfigManager:2673 - IP not found : gpio
+2021-03-26 04:12:52,743 [WARN] CodeGenerator:2697 - IP not found : gpio
+2021-03-26 04:12:52,918 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Inc\main.h_save
+2021-03-26 04:12:53,151 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Inc\main.h
+2021-03-26 04:12:53,443 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Src\main.c_save
+2021-03-26 04:12:53,746 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Src\main.c
+2021-03-26 04:12:59,613 [INFO] ProjectBuilder:1645 - Time for Copy HAL[1] : 5017mS.
+2021-03-26 04:12:59,618 [INFO] ProjectBuilder:2206 - Project Generator version: 3.5.2
+2021-03-26 04:13:00,112 [INFO] ConfigFileManager:953 - The Die is : DIE431
+2021-03-26 04:13:02,373 [INFO] ProjectBuilder:2373 - Time for Generating toolchain IDE Files: 2755mS.
+2021-03-26 04:13:02,391 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 17mS.
+2021-03-26 04:13:02,396 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 0mS.
+2021-03-26 04:46:19,842 [INFO] EditThreadDialog:688 - RAM SIZE (in KB): 128
+2021-03-26 04:46:19,843 [INFO] EditThreadDialog:690 - RAM SIZE (in words): 32768
+2021-03-26 04:46:35,688 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 04:46:35,688 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 04:46:35,688 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 04:46:35,688 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 04:46:35,688 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 04:46:35,688 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 04:46:35,688 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 04:46:35,689 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 04:46:35,689 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 04:46:36,321 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 568363464 Bytes (791674880)
+2021-03-26 04:46:37,240 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 572557768 Bytes (791674880)
+2021-03-26 04:46:37,438 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 609257928 Bytes (791674880)
+2021-03-26 04:46:37,823 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: NVIC
+2021-03-26 04:46:37,823 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: FREERTOS
+2021-03-26 04:46:37,824 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: SYS
+2021-03-26 04:46:37,824 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: GPIO
+2021-03-26 04:46:37,844 [INFO] CodeGenerator:598 - code generatio: config db path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\
+2021-03-26 04:46:38,400 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\license.tmp_save
+2021-03-26 04:46:38,543 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\license.tmp
+2021-03-26 04:46:38,782 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\gpio.tmp_save
+2021-03-26 04:46:38,910 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\gpio.tmp
+2021-03-26 04:46:39,068 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-03-26 04:46:39,078 [INFO] Middleware:1071 - No code input for Bsp Dependency
+2021-03-26 04:46:39,226 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\rtos_inc.tmp_save
+2021-03-26 04:46:39,339 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\rtos_inc.tmp
+2021-03-26 04:46:39,555 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\rtos_vars.tmp_save
+2021-03-26 04:46:39,688 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\rtos_vars.tmp
+2021-03-26 04:46:39,882 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\rtos_pfp.tmp_save
+2021-03-26 04:46:39,994 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\rtos_pfp.tmp
+2021-03-26 04:46:40,193 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\rtos_HalInit.tmp_save
+2021-03-26 04:46:40,309 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\rtos_HalInit.tmp
+2021-03-26 04:46:40,502 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\rtos_start.tmp_save
+2021-03-26 04:46:40,622 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\rtos_start.tmp
+2021-03-26 04:46:40,815 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\rtos_threads.tmp_save
+2021-03-26 04:46:40,930 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\rtos_threads.tmp
+2021-03-26 04:46:41,127 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\rtos_user_threads.tmp_save
+2021-03-26 04:46:41,268 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\rtos_user_threads.tmp
+2021-03-26 04:46:41,551 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Inc\FreeRTOSConfig.h_save
+2021-03-26 04:46:41,814 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Inc\FreeRTOSConfig.h
+2021-03-26 04:46:42,072 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Src\freertos.c_save
+2021-03-26 04:46:42,304 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Src\freertos.c
+2021-03-26 04:46:42,392 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-03-26 04:46:42,393 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SYS
+2021-03-26 04:46:42,393 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-03-26 04:46:42,397 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2021-03-26 04:46:42,398 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-03-26 04:46:42,571 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Src\stm32f4xx_it.c_save
+2021-03-26 04:46:42,812 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Src\stm32f4xx_it.c
+2021-03-26 04:46:43,060 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Inc\stm32f4xx_it.h_save
+2021-03-26 04:46:43,290 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Inc\stm32f4xx_it.h
+2021-03-26 04:46:43,628 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Src\stm32f4xx_hal_msp.c_save
+2021-03-26 04:46:43,895 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Src\stm32f4xx_hal_msp.c
+2021-03-26 04:46:44,132 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\MXTmpFiles\system.tmp_save
+2021-03-26 04:46:44,245 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\MXTmpFiles\system.tmp
+2021-03-26 04:46:44,467 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2021-03-26 04:46:44,692 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Src\stm32f4xx_hal_timebase_tim.c
+2021-03-26 04:46:44,967 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-03-26 04:46:45,217 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Inc\stm32f4xx_hal_conf.h
+2021-03-26 04:46:45,331 [WARN] IPConfigManager:2673 - IP not found : gpio
+2021-03-26 04:46:45,333 [WARN] CodeGenerator:2697 - IP not found : gpio
+2021-03-26 04:46:45,505 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Inc\main.h_save
+2021-03-26 04:46:45,734 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Inc\main.h
+2021-03-26 04:46:46,025 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise18\Core\Src\main.c_save
+2021-03-26 04:46:46,319 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise18\Core\Src\main.c
+2021-03-26 04:46:54,306 [INFO] ProjectBuilder:1645 - Time for Copy HAL[1] : 7124mS.
+2021-03-26 04:46:54,310 [INFO] ProjectBuilder:2206 - Project Generator version: 3.5.2
+2021-03-26 04:46:54,541 [INFO] ConfigFileManager:953 - The Die is : DIE431
+2021-03-26 04:46:56,551 [INFO] ProjectBuilder:2373 - Time for Generating toolchain IDE Files: 2241mS.
+2021-03-26 04:46:56,569 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 18mS.
+2021-03-26 04:46:56,576 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 1mS.
+2021-03-26 05:19:13,977 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 05:19:18,150 [INFO] MainUpdater:2232 - connection check result : 10
+2021-03-26 05:19:18,151 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2021-03-26 05:19:18,159 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2021-03-26 05:19:18,160 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2021-03-26 05:19:18,880 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2021-03-26 05:19:18,880 [INFO] McuDetailPanel:180 - Set advertising image to C:/Users/hoang/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2021-03-26 05:19:19,161 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2021-03-26 05:19:19,323 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2021-03-26 05:19:19,323 [INFO] BoardDetailPanel:179 - Set advertising image to C:/Users/hoang/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2021-03-26 05:19:19,336 [INFO] ToolPreferences:109 - Table BoardList, key=mcufinder_cubeide.boardlist: column name not found=Commercial Part No
+2021-03-26 05:19:19,337 [INFO] BoardFilterPanel:211 - Update 1 favorites Boards
+2021-03-26 05:19:19,440 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\hoang\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2021-03-26 05:19:19,587 [INFO] ToolPreferences:109 - Table BoardList, key=mcufinder_cubeide.boardlist: column name not found=Commercial Part No
+2021-03-26 05:20:00,652 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.2
+2021-03-26 05:20:00,654 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.1
+2021-03-26 05:20:00,655 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.0
+2021-03-26 05:20:04,197 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] File copied successfully!!
+2021-03-26 05:20:05,844 [INFO] MainUpdater:2232 - connection check result : 10
+2021-03-26 05:20:05,846 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2021-03-26 05:20:05,897 [INFO] MicroXplorer:390 - Change Database Path : 
+2021-03-26 05:20:05,897 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.40
+2021-03-26 05:20:05,899 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2021-03-26 05:20:05,902 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 503891032 Bytes (791674880)
+2021-03-26 05:20:05,903 [INFO] OpenFileManager:269 - Change cursor
+2021-03-26 05:20:05,916 [INFO] RulesReader:52 - Compatibility file has been processed (179 Rules)
+2021-03-26 05:20:07,144 [INFO] Rule:205 - rule SPDIFRX instance for mcu is applicable
+2021-03-26 05:20:07,144 [INFO] Rule:205 - rule Rename Tracer Mode is applicable
+2021-03-26 05:20:07,145 [INFO] Rule:205 - rule SPDIFRX instance value for IP SPDIFRX is applicable
+2021-03-26 05:20:07,145 [INFO] Rule:205 - rule SPDIFRX instance for signal is applicable
+2021-03-26 05:20:07,145 [INFO] Rule:205 - rule SPDIFRX instance for project manager is applicable
+2021-03-26 05:20:07,145 [INFO] Rule:205 - rule SPDIFRX instance for project manager is applicable
+2021-03-26 05:20:07,145 [INFO] Rule:205 - rule ADC Scan  fix with FW F7 is applicable
+2021-03-26 05:20:07,145 [INFO] Rule:205 - rule ADC Scan  fix with FW F7 is applicable
+2021-03-26 05:20:07,146 [INFO] Rule:205 - rule Add RTC Activate Clock Source is applicable
+2021-03-26 05:20:07,146 [INFO] Rule:205 - rule Add RTC Activate Calendar 1 is applicable
+2021-03-26 05:20:07,146 [INFO] Rule:205 - rule Add RTC Activate Calendar 2 is applicable
+2021-03-26 05:20:07,146 [INFO] Rule:205 - rule Add RTC Activate Calendar 3 is applicable
+2021-03-26 05:20:07,146 [INFO] Rule:205 - rule UART/USART TX Mode is applicable
+2021-03-26 05:20:07,147 [INFO] Rule:205 - rule UART/USART RX Mode is applicable
+2021-03-26 05:20:07,147 [INFO] Rule:205 - rule UART/USART RX TX Mode is applicable
+2021-03-26 05:20:07,147 [INFO] Rule:205 - rule UART/USART PARITY NONE is applicable
+2021-03-26 05:20:07,147 [INFO] Rule:205 - rule UART/USART PARITY EVEN is applicable
+2021-03-26 05:20:07,147 [INFO] Rule:205 - rule UART/USART PARITY ODD is applicable
+2021-03-26 05:20:07,147 [INFO] Rule:205 - rule USART StopBits 1 is applicable
+2021-03-26 05:20:07,147 [INFO] Rule:205 - rule USART StopBits 2 is applicable
+2021-03-26 05:20:07,147 [INFO] Rule:205 - rule USART StopBits 1.5 is applicable
+2021-03-26 05:20:07,147 [INFO] Rule:205 - rule USART StopBits 0.5 is applicable
+2021-03-26 05:20:07,147 [INFO] Rule:205 - rule UART/USART WORD LENGTH 7 is applicable
+2021-03-26 05:20:07,147 [INFO] Rule:205 - rule UART/USART WORD LENGTH 8 is applicable
+2021-03-26 05:20:07,148 [INFO] Rule:205 - rule UART/USART WORD LENGTH 9 is applicable
+2021-03-26 05:20:07,148 [INFO] Rule:205 - rule Rename FMC NAND NCE signal is applicable
+2021-03-26 05:20:07,148 [INFO] Rule:205 - rule Rename FMC NAND INT signal is applicable
+2021-03-26 05:20:07,148 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv L4 family is applicable
+2021-03-26 05:20:07,148 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv L4 family is applicable
+2021-03-26 05:20:07,148 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F3 family is applicable
+2021-03-26 05:20:07,148 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv F3 family is applicable
+2021-03-26 05:20:07,148 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv Goldfish serie is applicable
+2021-03-26 05:20:07,148 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv Goldfish serie is applicable
+2021-03-26 05:20:07,148 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv L0 family is applicable
+2021-03-26 05:20:07,148 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F0 family is applicable
+2021-03-26 05:20:07,148 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConvn L1 family is applicable
+2021-03-26 05:20:07,149 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv L1 family is applicable
+2021-03-26 05:20:07,149 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F1 family is applicable
+2021-03-26 05:20:07,149 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv F1 family is applicable
+2021-03-26 05:20:07,149 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F7 family is applicable
+2021-03-26 05:20:07,149 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv F7 family is applicable
+2021-03-26 05:20:07,149 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F4 and F2 family is applicable
+2021-03-26 05:20:07,149 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv F4 and F2 family is applicable
+2021-03-26 05:20:07,149 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0  is applicable
+2021-03-26 05:20:07,149 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0  is applicable
+2021-03-26 05:20:07,149 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0 is applicable
+2021-03-26 05:20:07,149 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0 is applicable
+2021-03-26 05:20:07,149 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0  is applicable
+2021-03-26 05:20:07,150 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0 is applicable
+2021-03-26 05:20:07,150 [INFO] Rule:205 - rule Rename USB_OE Signal is applicable
+2021-03-26 05:20:07,150 [INFO] Rule:205 - rule Rename Activate_OE Mode is applicable
+2021-03-26 05:20:07,150 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PC14/OSC32_IN -> PC14-OSC32_IN (PC14) is applicable
+2021-03-26 05:20:07,150 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PC15/OSC32_OUT -> PC15-OSC32_OUT (PC15) is applicable
+2021-03-26 05:20:07,150 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PH0/OSC_IN -> PH0-OSC_IN (PH0) is applicable
+2021-03-26 05:20:07,150 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PH1/OSC_OUT -> PH1-OSC_OUT (PH1) is applicable
+2021-03-26 05:20:07,150 [INFO] Rule:205 - rule Rename DIE462 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2021-03-26 05:20:07,150 [INFO] Rule:205 - rule Rename DIE415 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2021-03-26 05:20:07,151 [INFO] Rule:205 - rule Rename DIE462 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2021-03-26 05:20:07,151 [INFO] Rule:205 - rule Rename DIE415 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2021-03-26 05:20:07,151 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PA15 -> PA15 (JTDI) is applicable
+2021-03-26 05:20:07,151 [INFO] Rule:205 - rule Rename DIE462 pin PB3 -> PB3 (JTD0/TRACESWO) is applicable
+2021-03-26 05:20:07,151 [INFO] Rule:205 - rule Rename DIE415 pin PB3 -> PB3 (JTD0-TRACESWO) is applicable
+2021-03-26 05:20:07,151 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PB4 -> PB4 (NJTRST) is applicable
+2021-03-26 05:20:07,151 [INFO] Rule:205 - rule Rename DIE462 pin PH3/BOOT0 -> PH3-BOOT0 (BOOT0) is applicable
+2021-03-26 05:20:07,151 [INFO] Rule:205 - rule Rename CRYP DataEncryptionTypesList to Algorithm is applicable
+2021-03-26 05:20:07,152 [INFO] Rule:205 - rule Rename AES DataEncryptionTypesList to Algorithm is applicable
+2021-03-26 05:20:07,152 [INFO] Rule:205 - rule Rename TDESECB to CRYP_TDES_ECB is applicable
+2021-03-26 05:20:07,152 [INFO] Rule:205 - rule Rename TDESCBC to CRYP_TDES_CBC is applicable
+2021-03-26 05:20:07,152 [INFO] Rule:205 - rule Rename DESECB to CRYP_DES_ECB is applicable
+2021-03-26 05:20:07,152 [INFO] Rule:205 - rule Rename DESCBC to CRYP_DES_CBC is applicable
+2021-03-26 05:20:07,152 [INFO] Rule:205 - rule Rename AESECB to CRYP_AES_ECB is applicable
+2021-03-26 05:20:07,152 [INFO] Rule:205 - rule Rename AESCBC to CRYP_AES_CBC is applicable
+2021-03-26 05:20:07,152 [INFO] Rule:205 - rule Rename AESCTR to CRYP_AES_CTR is applicable
+2021-03-26 05:20:07,152 [INFO] Rule:205 - rule Rename AESGCM to CRYP_AES_GCM is applicable
+2021-03-26 05:20:07,153 [INFO] Rule:205 - rule Rename AESCCM to CRYP_AES_CCM is applicable
+2021-03-26 05:20:07,153 [INFO] Rule:205 - rule Rename CAN TimeSeg1 to BS1 is applicable
+2021-03-26 05:20:07,153 [INFO] Rule:205 - rule Rename CAN TimeSeg2 to BS2 is applicable
+2021-03-26 05:20:07,153 [INFO] Rule:205 - rule Rename CAN SyncJumpWidth to SJW is applicable
+2021-03-26 05:20:07,153 [INFO] Rule:205 - rule TimeTriggeredMode to TTCM is applicable
+2021-03-26 05:20:07,153 [INFO] Rule:205 - rule Rename CAN AutoBusOff to ABOM is applicable
+2021-03-26 05:20:07,153 [INFO] Rule:205 - rule Rename CAN AutoWakeUp to AWUM is applicable
+2021-03-26 05:20:07,154 [INFO] Rule:205 - rule Rename CAN AutoRetransmission to NART is applicable
+2021-03-26 05:20:07,154 [INFO] Rule:205 - rule Rename CAN ReceiveFifoLocked to RFLM is applicable
+2021-03-26 05:20:07,154 [INFO] Rule:205 - rule Rename CAN TransmitFifoPriority to TXFP is applicable
+2021-03-26 05:20:07,154 [INFO] Rule:205 - rule Rename HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGH in HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGHZ is applicable
+2021-03-26 05:20:07,154 [INFO] Rule:205 - rule Rename TIMER TIM_CLEARINPUTSOURCE_OCREFCLR in  TIMER TIM_CLEARINPUTSOURCE_NONE for F7 family is applicable
+2021-03-26 05:20:07,154 [INFO] Rule:205 - rule FDCAN_R1 - Rename FDCAN mode Master into Classic is applicable
+2021-03-26 05:20:07,154 [INFO] Rule:205 - rule FDCAN_R2 - Rename FDCAN mode Slave into Classic is applicable
+2021-03-26 05:20:07,154 [INFO] Rule:205 - rule FDCAN1_R3 - if PA10.Mode=FullDuplex, add Pin PA12 is applicable
+2021-03-26 05:20:07,154 [INFO] Rule:205 - rule FDCAN1_R3 - if PA9.Mode=FullDuplex, add Pin PA11 is applicable
+2021-03-26 05:20:07,155 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_1 - if PE1.Mode=FullDuplex, add Pin PB9 is applicable
+2021-03-26 05:20:07,155 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_1 - if PE0.Mode=FullDuplex, add Pin PB8 is applicable
+2021-03-26 05:20:07,155 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_2 - if PD5.Mode=FullDuplex, add Pin PD1 is applicable
+2021-03-26 05:20:07,155 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_2 - if PD4.Mode=FullDuplex, add Pin PD0 is applicable
+2021-03-26 05:20:07,155 [INFO] Rule:205 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA10 is applicable
+2021-03-26 05:20:07,155 [INFO] Rule:205 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA9 is applicable
+2021-03-26 05:20:07,155 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE1 is applicable
+2021-03-26 05:20:07,155 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE0 is applicable
+2021-03-26 05:20:07,156 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD5 is applicable
+2021-03-26 05:20:07,156 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD4 is applicable
+2021-03-26 05:20:07,156 [INFO] Rule:205 - rule FDCAN2_R3 - if PD10.Mode=FullDuplex, add Pin PB13 is applicable
+2021-03-26 05:20:07,156 [INFO] Rule:205 - rule FDCAN2_R3 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2021-03-26 05:20:07,156 [INFO] Rule:205 - rule FDCAN2_R3 - Alternatepin_1 - if PB7.Mode=FullDuplex, add Pin PB6 is applicable
+2021-03-26 05:20:07,156 [INFO] Rule:205 - rule FDCAN2_R3 - Alternatepin_1 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2021-03-26 05:20:07,156 [INFO] Rule:205 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD10 is applicable
+2021-03-26 05:20:07,156 [INFO] Rule:205 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD9 is applicable
+2021-03-26 05:20:07,157 [INFO] Rule:205 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PB7 is applicable
+2021-03-26 05:20:07,157 [INFO] Rule:205 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD6 is applicable
+2021-03-26 05:20:07,157 [INFO] Rule:205 - rule USART TxPinLevelInvertParam Mode is applicable
+2021-03-26 05:20:07,157 [INFO] Rule:205 - rule USART RxPinLevelInvertParam Mode is applicable
+2021-03-26 05:20:07,157 [INFO] Rule:205 - rule USART DataInvertParam Mode is applicable
+2021-03-26 05:20:07,157 [INFO] Rule:205 - rule USART SwapParam Mode is applicable
+2021-03-26 05:20:07,157 [INFO] Rule:205 - rule USART OverrunDisableParam Mode is applicable
+2021-03-26 05:20:07,157 [INFO] Rule:205 - rule USART DMADisableonRxErrorParam Mode is applicable
+2021-03-26 05:20:07,158 [INFO] Rule:205 - rule USART MSBFirstParam Mode is applicable
+2021-03-26 05:20:07,158 [INFO] Rule:205 - rule Update MwName for USB_DEVICE is applicable
+2021-03-26 05:20:07,158 [INFO] Rule:205 - rule Change PWR_Regulator_Voltage_Scale Default Value for RCC  H7 family is applicable
+2021-03-26 05:20:07,158 [INFO] Rule:205 - rule UART/USART IPParameter rename Prescaler parameter to ClockPrescaler is applicable
+2021-03-26 05:20:07,158 [INFO] Rule:205 - rule UART/USART Prescaler rename Prescaler parameter to ClockPrescaler is applicable
+2021-03-26 05:20:07,158 [INFO] Rule:205 - rule TIM1CLockSelection is applicable
+2021-03-26 05:20:07,158 [INFO] Rule:205 - rule TIM15CLockSelection is applicable
+2021-03-26 05:20:07,158 [INFO] Rule:205 - rule align RCC SDMMC3CLockSelection default value on MP1 is applicable
+2021-03-26 05:20:07,158 [INFO] Rule:205 - rule align RCC SDMMC12CLockSelection default value on MP1 is applicable
+2021-03-26 05:20:07,159 [INFO] Rule:205 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2021-03-26 05:20:07,159 [INFO] Rule:205 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2021-03-26 05:20:07,159 [INFO] Rule:205 - rule align RCC SPI6CLockSelection default value on MP1 is applicable
+2021-03-26 05:20:07,159 [INFO] Rule:205 - rule align RCC LPTIM23CLockSelection default value on MP1 is applicable
+2021-03-26 05:20:07,159 [INFO] Rule:205 - rule align RCC LPTIM1CLockSelection default value on MP1 is applicable
+2021-03-26 05:20:07,159 [INFO] Rule:205 - rule align RCC USART1CLockSelection default value on MP1 is applicable
+2021-03-26 05:20:07,159 [INFO] Rule:205 - rule align RCC USART24CLockSelection default value on MP1 is applicable
+2021-03-26 05:20:07,159 [INFO] Rule:205 - rule align RCC USART6CLockSelection default value on MP1 is applicable
+2021-03-26 05:20:07,159 [INFO] Rule:205 - rule align RCC UART78CLockSelection default value on MP1 is applicable
+2021-03-26 05:20:07,160 [INFO] Rule:205 - rule align RCC USART35CLockSelection default value on MP1 is applicable
+2021-03-26 05:20:07,160 [INFO] Rule:205 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2021-03-26 05:20:07,160 [INFO] Rule:205 - rule align RCC I2C46CLockSelection BCLK value on MP1 is applicable
+2021-03-26 05:20:07,160 [INFO] Rule:205 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2021-03-26 05:20:07,160 [INFO] Rule:205 - rule align RCC I2C12CLockSelection default value on MP1 is applicable
+2021-03-26 05:20:07,160 [INFO] Rule:205 - rule align RCC I2C35CLockSelection default value on MP1 is applicable
+2021-03-26 05:20:07,160 [INFO] Rule:205 - rule align RCC LPTIM45CLockSelection default value on MP1 is applicable
+2021-03-26 05:20:07,160 [INFO] Rule:205 - rule Rename DCMI PIXCK signal is applicable
+2021-03-26 05:20:07,160 [INFO] Rule:205 - rule Change Default Value for I2C46CLockSelection MP1 family is applicable
+2021-03-26 05:20:07,160 [INFO] Rule:205 - rule Change Default Value for UART for G4, G0 and WB families is applicable
+2021-03-26 05:20:07,160 [INFO] Rule:205 - rule Change Default Value for USART for G4, G0 and WB families is applicable
+2021-03-26 05:20:07,161 [INFO] Rule:205 - rule Change Default Value for USART for G4 family is applicable
+2021-03-26 05:20:07,204 [INFO] DbConfProperties:222 - Apply Compatibility (46/144 Rules)
+2021-03-26 05:20:07,232 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2021-03-26 05:20:07,472 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 657044136 Bytes (791674880)
+2021-03-26 05:20:07,595 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 5.2.0
+2021-03-26 05:20:07,596 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.1.0
+2021-03-26 05:20:07,596 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.1.0
+2021-03-26 05:20:07,596 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.0.0
+2021-03-26 05:20:07,596 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.1.0
+2021-03-26 05:20:07,596 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.2.0
+2021-03-26 05:20:07,596 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.1
+2021-03-26 05:20:07,596 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 2.0.0
+2021-03-26 05:20:07,596 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 3.0.1
+2021-03-26 05:20:07,597 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.16.0
+2021-03-26 05:20:07,597 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.1.0
+2021-03-26 05:20:07,597 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.0
+2021-03-26 05:20:07,597 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2021-03-26 05:20:07,597 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.2
+2021-03-26 05:20:07,597 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.0.0
+2021-03-26 05:20:07,597 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.0.0
+2021-03-26 05:20:07,597 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.16.1
+2021-03-26 05:20:07,597 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.0
+2021-03-26 05:20:07,598 [INFO] ThirdParty:897 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 4.7.0
+2021-03-26 05:20:07,598 [INFO] ThirdParty:897 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2021-03-26 05:20:07,598 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 6.0.0
+2021-03-26 05:20:07,712 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2021-03-26 05:20:07,714 [INFO] PinOutPanel:1367 - setPackage(STM32F411VETx,LQFP100)
+2021-03-26 05:20:08,033 [INFO] UtilMem:74 - Before build in PCC Used Memory: 382190072 Bytes (791674880)
+2021-03-26 05:20:08,168 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/hoang/.stm32cubemx/plugins/power
+2021-03-26 05:20:08,180 [INFO] UtilMem:74 - After build in PCC Used Memory: 389007856 Bytes (791674880)
+2021-03-26 05:20:08,188 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 05:20:08,188 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,189 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,189 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,189 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,189 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,189 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,190 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,190 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,190 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,190 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,190 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,191 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,191 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,191 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,191 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,192 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,192 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,192 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,193 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,193 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,193 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,193 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,194 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,194 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,194 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,194 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,195 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,195 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,195 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,195 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,196 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,196 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,196 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,197 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,197 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,197 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,198 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,198 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,198 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,198 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,199 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,199 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 05:20:08,201 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 05:20:08,232 [INFO] OpenFileManager:289 - Restore cursor
+2021-03-26 05:20:08,283 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 05:20:08,306 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 05:20:08,408 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 418367984 Bytes (791674880)
+2021-03-26 05:20:08,458 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 423610864 Bytes (791674880)
+2021-03-26 05:20:08,670 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: NVIC
+2021-03-26 05:20:08,671 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: SYS
+2021-03-26 05:20:08,671 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: GPIO
+2021-03-26 05:20:08,675 [INFO] CodeGenerator:598 - code generatio: config db path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\
+2021-03-26 05:20:09,014 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\MXTmpFiles\license.tmp_save
+2021-03-26 05:20:09,161 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\MXTmpFiles\license.tmp
+2021-03-26 05:20:09,403 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\MXTmpFiles\gpio.tmp_save
+2021-03-26 05:20:09,529 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\MXTmpFiles\gpio.tmp
+2021-03-26 05:20:09,630 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-03-26 05:20:09,632 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SYS
+2021-03-26 05:20:09,633 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-03-26 05:20:09,636 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2021-03-26 05:20:09,637 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-03-26 05:20:09,783 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\Core\Src\stm32f4xx_it.c_save
+2021-03-26 05:20:10,014 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\Core\Src\stm32f4xx_it.c
+2021-03-26 05:20:10,204 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\Core\Inc\stm32f4xx_it.h_save
+2021-03-26 05:20:10,385 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\Core\Inc\stm32f4xx_it.h
+2021-03-26 05:20:10,616 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\Core\Src\stm32f4xx_hal_msp.c_save
+2021-03-26 05:20:10,813 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\Core\Src\stm32f4xx_hal_msp.c
+2021-03-26 05:20:11,004 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\MXTmpFiles\system.tmp_save
+2021-03-26 05:20:11,150 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\MXTmpFiles\system.tmp
+2021-03-26 05:20:11,349 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-03-26 05:20:11,635 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\Core\Inc\stm32f4xx_hal_conf.h
+2021-03-26 05:20:11,707 [WARN] IPConfigManager:2673 - IP not found : gpio
+2021-03-26 05:20:11,707 [WARN] CodeGenerator:2697 - IP not found : gpio
+2021-03-26 05:20:11,849 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\Core\Inc\main.h_save
+2021-03-26 05:20:12,011 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\Core\Inc\main.h
+2021-03-26 05:20:12,217 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\Core\Src\main.c_save
+2021-03-26 05:20:12,428 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\Core\Src\main.c
+2021-03-26 05:20:15,811 [INFO] ProjectBuilder:1645 - Time for Copy HAL[1] : 2524mS.
+2021-03-26 05:20:15,835 [INFO] ProjectBuilder:2206 - Project Generator version: 3.5.2
+2021-03-26 05:20:16,080 [INFO] ConfigFileManager:953 - The Die is : DIE431
+2021-03-26 05:20:20,380 [INFO] ProjectBuilder:2373 - Time for Generating toolchain IDE Files: 4545mS.
+2021-03-26 05:20:20,413 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 32mS.
+2021-03-26 05:20:20,416 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 0mS.
+2021-03-26 05:20:24,481 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 05:20:25,916 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 05:20:25,925 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 05:20:27,829 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 05:20:29,727 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 05:20:29,772 [INFO] ApiDbMcu:445 - Load IP Config File for FREERTOS
+2021-03-26 05:20:29,863 [ERROR] RtosPanel:506 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2021-03-26 05:20:29,886 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 05:20:29,953 [ERROR] RtosPanel:506 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2021-03-26 05:20:29,960 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 05:20:34,465 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 05:20:34,465 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 05:20:34,465 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 05:20:36,545 [INFO] EditThreadDialog:688 - RAM SIZE (in KB): 128
+2021-03-26 05:20:36,546 [INFO] EditThreadDialog:690 - RAM SIZE (in words): 32768
+2021-03-26 05:20:55,010 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 05:20:55,010 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 05:20:55,010 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 05:20:55,011 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 05:20:55,012 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 05:20:55,012 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 05:20:55,134 [ERROR] RtosPanel:506 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2021-03-26 05:20:58,765 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 05:20:58,765 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 05:20:58,765 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 05:20:58,766 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 05:20:58,766 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 05:20:58,766 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 05:21:06,145 [INFO] EditThreadDialog:688 - RAM SIZE (in KB): 128
+2021-03-26 05:21:06,145 [INFO] EditThreadDialog:690 - RAM SIZE (in words): 32768
+2021-03-26 05:21:17,280 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 05:21:17,281 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 05:21:17,281 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 05:21:17,281 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 05:21:17,281 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 05:21:17,281 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 05:21:31,817 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 05:21:31,818 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 05:21:31,818 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 05:21:31,818 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 05:21:31,818 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 05:21:31,818 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 05:21:39,785 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 421861968 Bytes (810549248)
+2021-03-26 05:21:41,668 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 426582600 Bytes (810549248)
+2021-03-26 05:21:41,809 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 442833488 Bytes (810549248)
+2021-03-26 05:21:42,006 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: NVIC
+2021-03-26 05:21:42,006 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: FREERTOS
+2021-03-26 05:21:42,006 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: SYS
+2021-03-26 05:21:42,007 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: GPIO
+2021-03-26 05:21:42,025 [INFO] CodeGenerator:598 - code generatio: config db path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\
+2021-03-26 05:21:42,483 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\MXTmpFiles\license.tmp_save
+2021-03-26 05:21:42,623 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\MXTmpFiles\license.tmp
+2021-03-26 05:21:42,890 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\MXTmpFiles\gpio.tmp_save
+2021-03-26 05:21:43,015 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\MXTmpFiles\gpio.tmp
+2021-03-26 05:21:43,178 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-03-26 05:21:43,186 [INFO] Middleware:1071 - No code input for Bsp Dependency
+2021-03-26 05:21:43,326 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\MXTmpFiles\rtos_inc.tmp_save
+2021-03-26 05:21:43,439 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\MXTmpFiles\rtos_inc.tmp
+2021-03-26 05:21:43,633 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\MXTmpFiles\rtos_vars.tmp_save
+2021-03-26 05:21:43,754 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\MXTmpFiles\rtos_vars.tmp
+2021-03-26 05:21:43,948 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\MXTmpFiles\rtos_pfp.tmp_save
+2021-03-26 05:21:44,067 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\MXTmpFiles\rtos_pfp.tmp
+2021-03-26 05:21:44,264 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\MXTmpFiles\rtos_HalInit.tmp_save
+2021-03-26 05:21:44,381 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\MXTmpFiles\rtos_HalInit.tmp
+2021-03-26 05:21:44,575 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\MXTmpFiles\rtos_start.tmp_save
+2021-03-26 05:21:44,688 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\MXTmpFiles\rtos_start.tmp
+2021-03-26 05:21:44,888 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\MXTmpFiles\rtos_threads.tmp_save
+2021-03-26 05:21:45,003 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\MXTmpFiles\rtos_threads.tmp
+2021-03-26 05:21:45,200 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\MXTmpFiles\rtos_user_threads.tmp_save
+2021-03-26 05:21:45,315 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\MXTmpFiles\rtos_user_threads.tmp
+2021-03-26 05:21:45,522 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\Core\Inc\FreeRTOSConfig.h_save
+2021-03-26 05:21:45,685 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\Core\Inc\FreeRTOSConfig.h
+2021-03-26 05:21:45,894 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\Core\Src\freertos.c_save
+2021-03-26 05:21:46,061 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\Core\Src\freertos.c
+2021-03-26 05:21:46,114 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-03-26 05:21:46,115 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SYS
+2021-03-26 05:21:46,116 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-03-26 05:21:46,118 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2021-03-26 05:21:46,119 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-03-26 05:21:46,291 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\Core\Src\stm32f4xx_it.c_save
+2021-03-26 05:21:46,615 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\Core\Src\stm32f4xx_it.c
+2021-03-26 05:21:46,866 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\Core\Inc\stm32f4xx_it.h_save
+2021-03-26 05:21:47,088 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\Core\Inc\stm32f4xx_it.h
+2021-03-26 05:21:47,421 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\Core\Src\stm32f4xx_hal_msp.c_save
+2021-03-26 05:21:47,667 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\Core\Src\stm32f4xx_hal_msp.c
+2021-03-26 05:21:47,974 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\MXTmpFiles\system.tmp_save
+2021-03-26 05:21:48,088 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\MXTmpFiles\system.tmp
+2021-03-26 05:21:48,284 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2021-03-26 05:21:48,437 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\Core\Src\stm32f4xx_hal_timebase_tim.c
+2021-03-26 05:21:48,669 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-03-26 05:21:48,916 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\Core\Inc\stm32f4xx_hal_conf.h
+2021-03-26 05:21:49,026 [WARN] IPConfigManager:2673 - IP not found : gpio
+2021-03-26 05:21:49,027 [WARN] CodeGenerator:2697 - IP not found : gpio
+2021-03-26 05:21:49,195 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\Core\Inc\main.h_save
+2021-03-26 05:21:49,423 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\Core\Inc\main.h
+2021-03-26 05:21:49,706 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise19\Core\Src\main.c_save
+2021-03-26 05:21:49,984 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise19\Core\Src\main.c
+2021-03-26 05:21:55,592 [INFO] ProjectBuilder:1645 - Time for Copy HAL[1] : 4802mS.
+2021-03-26 05:21:55,595 [INFO] ProjectBuilder:2206 - Project Generator version: 3.5.2
+2021-03-26 05:21:55,806 [INFO] ConfigFileManager:953 - The Die is : DIE431
+2021-03-26 05:21:59,231 [INFO] ProjectBuilder:2373 - Time for Generating toolchain IDE Files: 3636mS.
+2021-03-26 05:21:59,249 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 17mS.
+2021-03-26 05:21:59,255 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 0mS.
+2021-03-26 05:57:04,681 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 08:25:10,019 [INFO] Activator:176 - 
+
+
+2021-03-26 08:25:10,024 [INFO] Activator:177 - !SESSION log4j initialized
+2021-03-26 08:25:24,248 [INFO] ApplicationProperties:181 - Using Application install path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541
+2021-03-26 08:25:24,270 [INFO] DbMcusXml:68 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/
+2021-03-26 08:25:24,274 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/boardmanager/
+2021-03-26 08:25:24,275 [INFO] DbMcus:265 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2021-03-26 08:25:24,275 [INFO] DbBoards:232 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2021-03-26 08:25:24,277 [INFO] APIGFXSelector:72 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/mcu/
+2021-03-26 08:25:24,285 [INFO] DbMcusAds:72 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:25:24,286 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:25:24,288 [INFO] DbMcusJson:59 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:25:24,288 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:25:24,289 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:26:17,270 [INFO] Activator:176 - 
+
+
+2021-03-26 08:26:17,274 [INFO] Activator:177 - !SESSION log4j initialized
+2021-03-26 08:26:33,847 [INFO] ApplicationProperties:181 - Using Application install path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541
+2021-03-26 08:26:33,868 [INFO] DbMcusXml:68 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/
+2021-03-26 08:26:33,872 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/boardmanager/
+2021-03-26 08:26:33,872 [INFO] DbMcus:265 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2021-03-26 08:26:33,873 [INFO] DbBoards:232 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2021-03-26 08:26:33,874 [INFO] APIGFXSelector:72 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/mcu/
+2021-03-26 08:26:33,880 [INFO] DbMcusAds:72 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:26:33,881 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:26:33,884 [INFO] DbMcusJson:59 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:26:33,885 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:26:33,887 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:26:45,085 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-03-26 08:26:45,260 [INFO] RulesReader:52 - Compatibility file has been processed (179 Rules)
+2021-03-26 08:26:45,379 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_202
+2021-03-26 08:26:45,380 [INFO] DbMcusXml:68 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/
+2021-03-26 08:26:45,380 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/boardmanager/
+2021-03-26 08:26:45,382 [INFO] DbMcus:265 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2021-03-26 08:26:45,383 [INFO] DbBoards:232 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2021-03-26 08:26:45,383 [INFO] APIGFXSelector:72 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/mcu/
+2021-03-26 08:26:45,383 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 08:26:45,383 [INFO] DbMcusAds:72 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:26:45,383 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 08:26:45,384 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:26:45,384 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 08:26:45,384 [INFO] DbMcusJson:59 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:26:45,384 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 08:26:45,385 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:26:45,385 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 08:26:45,386 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:26:45,386 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 08:26:45,387 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 08:26:45,387 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-03-26 08:26:45,503 [INFO] MainPanel:185 - HeapMemory: 357564416
+2021-03-26 08:26:45,639 [INFO] DbMcusXml:68 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/
+2021-03-26 08:26:45,639 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/boardmanager/
+2021-03-26 08:26:45,639 [INFO] DbMcus:265 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2021-03-26 08:26:45,640 [INFO] DbBoards:232 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2021-03-26 08:26:45,640 [INFO] APIGFXSelector:72 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/mcu/
+2021-03-26 08:26:45,641 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 08:26:45,641 [INFO] DbMcusAds:72 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:26:45,641 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 08:26:45,641 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:26:45,642 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 08:26:45,642 [INFO] DbMcusJson:59 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:26:45,642 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 08:26:45,642 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:26:45,643 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 08:26:45,643 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/
+2021-03-26 08:26:45,643 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 08:26:45,643 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\hoang\.stmcufinder\plugins\mcufinder/ => C:\Users\hoang\.stmcufinder\plugins\mcufinder
+2021-03-26 08:26:45,643 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\hoang\.stmcufinder\plugins\mcufinder//mcu/cs/
+2021-03-26 08:26:45,698 [INFO] ApplicationProperties:181 - Using Application install path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541
+2021-03-26 08:26:45,701 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=]
+2021-03-26 08:26:45,703 [INFO] PluginManage:292 - Check plugin analytics
+2021-03-26 08:26:45,711 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2021-03-26 08:26:45,711 [INFO] PluginManage:292 - Check plugin clock
+2021-03-26 08:26:45,725 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2021-03-26 08:26:45,725 [INFO] PluginManage:292 - Check plugin ddr
+2021-03-26 08:26:45,728 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2021-03-26 08:26:45,729 [INFO] PluginManage:292 - Check plugin filemanager
+2021-03-26 08:26:45,918 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2021-03-26 08:26:45,919 [INFO] PluginManage:292 - Check plugin ipmanager
+2021-03-26 08:26:45,927 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2021-03-26 08:26:45,928 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2021-03-26 08:26:45,942 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2021-03-26 08:26:45,942 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2021-03-26 08:26:45,972 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2021-03-26 08:26:45,973 [INFO] PluginManage:292 - Check plugin power
+2021-03-26 08:26:45,987 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2021-03-26 08:26:45,987 [INFO] PluginManage:292 - Check plugin projectmanager
+2021-03-26 08:26:46,006 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2021-03-26 08:26:46,006 [INFO] PluginManage:292 - Check plugin thirdparty
+2021-03-26 08:26:46,097 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/hoang/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 48 ms. number of Sw pack : 22
+2021-03-26 08:26:46,116 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2021-03-26 08:26:46,116 [INFO] PluginManage:292 - Check plugin tools
+2021-03-26 08:26:46,120 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2021-03-26 08:26:46,120 [INFO] PluginManage:292 - Check plugin updater
+2021-03-26 08:26:46,143 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2021-03-26 08:26:46,144 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2021-03-26 08:26:46,459 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2021-03-26 08:26:46,574 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,575 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2021-03-26 08:26:46,578 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,579 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2021-03-26 08:26:46,583 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,584 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2021-03-26 08:26:46,590 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,591 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2021-03-26 08:26:46,594 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,595 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2021-03-26 08:26:46,598 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,599 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2021-03-26 08:26:46,628 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,629 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2021-03-26 08:26:46,631 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,632 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2021-03-26 08:26:46,639 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,639 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2021-03-26 08:26:46,647 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,648 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2021-03-26 08:26:46,650 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,651 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2021-03-26 08:26:46,654 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,654 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2021-03-26 08:26:46,660 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,661 [INFO] PluginManager:200 - loadIPPluginJar : add gfxsimulator
+2021-03-26 08:26:46,670 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,671 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2021-03-26 08:26:46,675 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,676 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2021-03-26 08:26:46,679 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,679 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2021-03-26 08:26:46,682 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,683 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2021-03-26 08:26:46,686 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,686 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2021-03-26 08:26:46,689 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,689 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2021-03-26 08:26:46,693 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,693 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2021-03-26 08:26:46,695 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,695 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2021-03-26 08:26:46,699 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,699 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2021-03-26 08:26:46,702 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,702 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2021-03-26 08:26:46,705 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,705 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2021-03-26 08:26:46,709 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,709 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2021-03-26 08:26:46,716 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,719 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2021-03-26 08:26:46,721 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,721 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2021-03-26 08:26:46,725 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,726 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2021-03-26 08:26:46,730 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,731 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2021-03-26 08:26:46,735 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,735 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2021-03-26 08:26:46,739 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,740 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2021-03-26 08:26:46,742 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,742 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2021-03-26 08:26:46,746 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,747 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2021-03-26 08:26:46,749 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,749 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2021-03-26 08:26:46,752 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,752 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2021-03-26 08:26:46,754 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,755 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2021-03-26 08:26:46,757 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,757 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2021-03-26 08:26:46,760 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:26:46,760 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2021-03-26 08:26:47,284 [INFO] BoardConnectionPanel:220 - [DDR PANEL] osNameString: Windows
+2021-03-26 08:26:47,457 [INFO] BoardConnectionPanel:3149 - [DDR PANEL] STM32CubeIDE environment
+2021-03-26 08:26:47,457 [INFO] MainDdrPanel:100 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2021-03-26 08:26:47,657 [FATAL] Updater:277 - Updater called before beeing initialized
+2021-03-26 08:26:47,927 [FATAL] Updater:277 - Updater called before beeing initialized
+2021-03-26 08:26:47,933 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2021-03-26 08:26:47,934 [FATAL] Updater:277 - Updater called before beeing initialized
+2021-03-26 08:26:47,939 [INFO] BoardConnectionPanel:3149 - [DDR PANEL] STM32CubeIDE environment
+2021-03-26 08:26:47,939 [INFO] MainDdrPanel:100 - [DDR PANEL] GETTER - cubeProgrammerPath is: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin
+2021-03-26 08:26:47,946 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin\STM32_Programmer_CLI.exe -l
+2021-03-26 08:26:49,112 [FATAL] Updater:277 - Updater called before beeing initialized
+2021-03-26 08:26:49,113 [ERROR] IntegrityCheckThread:230 - Cannot obtain thirdParties list 21
+2021-03-26 08:26:49,113 [ERROR] IntegrityCheckThread:99 - Unexpected exception IntegrityCheckThread Thread: Updater error
+2021-03-26 08:26:49,114 [INFO] ThirdPartyDb:264 - Close Third Party DataBase File (C:/Users/hoang/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2021-03-26 08:26:53,332 [INFO] MainDdrPanel:90 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin
+2021-03-26 08:26:53,341 [INFO] Updater:886 - Updater Version found : 5.4.0
+2021-03-26 08:26:53,367 [INFO] ApplicationProperties:181 - Using Application install path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541
+2021-03-26 08:26:53,543 [INFO] MainUpdater:2232 - connection check result : 10
+2021-03-26 08:26:53,544 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2021-03-26 08:26:53,544 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.40
+2021-03-26 08:26:53,595 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2021-03-26 08:26:53,757 [INFO] MainUpdater:2232 - connection check result : 10
+2021-03-26 08:26:53,758 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2021-03-26 08:26:53,867 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2021-03-26 08:26:53,881 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2021-03-26 08:26:53,883 [INFO] DbMcusXml:106 - Load MCU database from C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/families.xml
+2021-03-26 08:26:54,988 [INFO] DbMcusJson:87 - JSON generation date=Mon Feb 08 20:35:07 ICT 2021 (1612791307)
+2021-03-26 08:26:56,345 [INFO] DbMcus:193 - Found 1544 MCUs (1504 are supported by CubeMX, 1504 are visible in CubeMX)
+2021-03-26 08:26:56,346 [INFO] ApiDb:158 - Load user favorites file C:\Users\hoang/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-03-26 08:26:56,346 [INFO] ApiDb:163 - User favorites MCUs=[]
+2021-03-26 08:26:56,346 [INFO] DbMcus:204 - Set 0 / 0 favorites MCUs
+2021-03-26 08:26:57,325 [INFO] DbMcusAds:130 - JSON generation date=Wed Feb 20 23:46:15 ICT 2019 (1550681175)
+2021-03-26 08:26:57,327 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2021-03-26 08:26:57,360 [INFO] McuDetailPanel:180 - Set advertising image to C:/Users/hoang/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2021-03-26 08:26:58,068 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2021-03-26 08:26:58,291 [INFO] DbBoardsPdsc:92 - Found 19 items
+2021-03-26 08:26:58,293 [INFO] DbBoardsPdsc:92 - Found 9 items
+2021-03-26 08:26:58,299 [INFO] DbBoardsPdsc:92 - Found 27 items
+2021-03-26 08:26:58,302 [INFO] DbBoardsPdsc:92 - Found 1 items
+2021-03-26 08:26:58,308 [INFO] DbBoardsPdsc:92 - Found 38 items
+2021-03-26 08:26:58,316 [INFO] DbBoardsPdsc:92 - Found 38 items
+2021-03-26 08:26:58,318 [INFO] DbBoardsPdsc:92 - Found 1 items
+2021-03-26 08:26:58,366 [INFO] DbBoardsJson:79 - JSON generation date=Thu Feb 04 23:53:45 ICT 2021 (1612457625)
+2021-03-26 08:26:58,376 [INFO] DbBoards:120 - Found 145 boards (132 are supported by CubeMX)
+2021-03-26 08:26:58,390 [INFO] DbBoardsDocs:118 - JSON generation date=Mon Feb 08 20:35:07 ICT 2021 (1612791307)
+2021-03-26 08:26:58,418 [INFO] DbBoardsDocs:57 - Found 193 boards documents
+2021-03-26 08:26:58,420 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2021-03-26 08:26:58,422 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2021-03-26 08:26:58,422 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2021-03-26 08:26:58,423 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2021-03-26 08:26:58,423 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2021-03-26 08:26:58,424 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2021-03-26 08:26:58,425 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2021-03-26 08:26:58,425 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2021-03-26 08:26:58,426 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2021-03-26 08:26:58,426 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2021-03-26 08:26:58,427 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2021-03-26 08:26:58,427 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2021-03-26 08:26:58,428 [WARN] DbBoards:130 - board STEVAL-STWINKT1B has no document id list !
+2021-03-26 08:26:58,964 [ERROR] DbBoards:192 - Image file not found for board P-NUCLEO-WB55: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/p-nucleo-wb55_small.jpg
+2021-03-26 08:26:59,239 [ERROR] DbBoards:192 - Image file not found for board STM32G0316-DISCO: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32g0316discovery_small.jpg
+2021-03-26 08:26:59,699 [ERROR] DbBoards:192 - Image file not found for board STM32H7B3I-DK: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32h7b3i-dk_small.jpg
+2021-03-26 08:26:59,699 [ERROR] DbBoards:192 - Image file not found for board STM32H7B3I-EVAL: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32h7b3ieval_small.jpg
+2021-03-26 08:26:59,705 [ERROR] DbBoards:192 - Image file not found for board STM32L4P5G-DK: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32l4p5g-dk_small.jpg
+2021-03-26 08:26:59,705 [ERROR] DbBoards:192 - Image file not found for board B-L4S5I-IOT01A: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/B-L4S5I-IOT01A_small.jpg
+2021-03-26 08:26:59,705 [ERROR] DbBoards:192 - Image file not found for board STM32H735G-DK: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/STM32H735G_DK_small.jpg
+2021-03-26 08:26:59,710 [ERROR] DbBoards:192 - Image file not found for board NUCLEO-WL55JC: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/nucleo-wl55jc-small.jpg
+2021-03-26 08:26:59,710 [ERROR] DbBoards:192 - Image file not found for board STEVAL-STWINKT1B: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/steval-stwinkt1b_small.jpg
+2021-03-26 08:26:59,710 [INFO] ApiDb:158 - Load user favorites file C:\Users\hoang/.stm32cubeide/favorites.boards.txt: 1 item(s)
+2021-03-26 08:26:59,711 [INFO] ApiDb:163 - User favorites Boards=[STM32F411E-DISCO]
+2021-03-26 08:26:59,711 [INFO] DbBoards:209 - Set 1 / 1 favorites Boards
+2021-03-26 08:26:59,794 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2021-03-26 08:26:59,795 [INFO] BoardDetailPanel:179 - Set advertising image to C:/Users/hoang/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2021-03-26 08:26:59,824 [INFO] ToolPreferences:109 - Table BoardList, key=mcufinder_cubeide.boardlist: column name not found=Commercial Part No
+2021-03-26 08:26:59,825 [INFO] BoardFilterPanel:211 - Update 1 favorites Boards
+2021-03-26 08:27:00,010 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\hoang\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2021-03-26 08:27:00,153 [INFO] ToolPreferences:109 - Table BoardList, key=mcufinder_cubeide.boardlist: column name not found=Commercial Part No
+2021-03-26 08:27:15,363 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.2
+2021-03-26 08:27:15,364 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.1
+2021-03-26 08:27:15,364 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.0
+2021-03-26 08:27:18,557 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] File copied successfully!!
+2021-03-26 08:27:19,445 [INFO] MainUpdater:2232 - connection check result : 10
+2021-03-26 08:27:19,447 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2021-03-26 08:27:19,500 [INFO] MicroXplorer:390 - Change Database Path : 
+2021-03-26 08:27:19,500 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.40
+2021-03-26 08:27:19,503 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2021-03-26 08:27:19,503 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 362061856 Bytes (466616320)
+2021-03-26 08:27:19,504 [INFO] OpenFileManager:269 - Change cursor
+2021-03-26 08:27:21,420 [INFO] Rule:205 - rule SPDIFRX instance for mcu is applicable
+2021-03-26 08:27:21,421 [INFO] Rule:205 - rule Rename Tracer Mode is applicable
+2021-03-26 08:27:21,421 [INFO] Rule:205 - rule SPDIFRX instance value for IP SPDIFRX is applicable
+2021-03-26 08:27:21,421 [INFO] Rule:205 - rule SPDIFRX instance for signal is applicable
+2021-03-26 08:27:21,421 [INFO] Rule:205 - rule SPDIFRX instance for project manager is applicable
+2021-03-26 08:27:21,421 [INFO] Rule:205 - rule SPDIFRX instance for project manager is applicable
+2021-03-26 08:27:21,421 [INFO] Rule:205 - rule ADC Scan  fix with FW F7 is applicable
+2021-03-26 08:27:21,421 [INFO] Rule:205 - rule ADC Scan  fix with FW F7 is applicable
+2021-03-26 08:27:21,421 [INFO] Rule:205 - rule Add RTC Activate Clock Source is applicable
+2021-03-26 08:27:21,421 [INFO] Rule:205 - rule Add RTC Activate Calendar 1 is applicable
+2021-03-26 08:27:21,422 [INFO] Rule:205 - rule Add RTC Activate Calendar 2 is applicable
+2021-03-26 08:27:21,422 [INFO] Rule:205 - rule Add RTC Activate Calendar 3 is applicable
+2021-03-26 08:27:21,422 [INFO] Rule:205 - rule UART/USART TX Mode is applicable
+2021-03-26 08:27:21,422 [INFO] Rule:205 - rule UART/USART RX Mode is applicable
+2021-03-26 08:27:21,422 [INFO] Rule:205 - rule UART/USART RX TX Mode is applicable
+2021-03-26 08:27:21,422 [INFO] Rule:205 - rule UART/USART PARITY NONE is applicable
+2021-03-26 08:27:21,422 [INFO] Rule:205 - rule UART/USART PARITY EVEN is applicable
+2021-03-26 08:27:21,422 [INFO] Rule:205 - rule UART/USART PARITY ODD is applicable
+2021-03-26 08:27:21,423 [INFO] Rule:205 - rule USART StopBits 1 is applicable
+2021-03-26 08:27:21,423 [INFO] Rule:205 - rule USART StopBits 2 is applicable
+2021-03-26 08:27:21,423 [INFO] Rule:205 - rule USART StopBits 1.5 is applicable
+2021-03-26 08:27:21,423 [INFO] Rule:205 - rule USART StopBits 0.5 is applicable
+2021-03-26 08:27:21,423 [INFO] Rule:205 - rule UART/USART WORD LENGTH 7 is applicable
+2021-03-26 08:27:21,423 [INFO] Rule:205 - rule UART/USART WORD LENGTH 8 is applicable
+2021-03-26 08:27:21,423 [INFO] Rule:205 - rule UART/USART WORD LENGTH 9 is applicable
+2021-03-26 08:27:21,424 [INFO] Rule:205 - rule Rename FMC NAND NCE signal is applicable
+2021-03-26 08:27:21,424 [INFO] Rule:205 - rule Rename FMC NAND INT signal is applicable
+2021-03-26 08:27:21,424 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv L4 family is applicable
+2021-03-26 08:27:21,424 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv L4 family is applicable
+2021-03-26 08:27:21,424 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F3 family is applicable
+2021-03-26 08:27:21,424 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv F3 family is applicable
+2021-03-26 08:27:21,424 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv Goldfish serie is applicable
+2021-03-26 08:27:21,425 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv Goldfish serie is applicable
+2021-03-26 08:27:21,425 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv L0 family is applicable
+2021-03-26 08:27:21,425 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F0 family is applicable
+2021-03-26 08:27:21,425 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConvn L1 family is applicable
+2021-03-26 08:27:21,425 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv L1 family is applicable
+2021-03-26 08:27:21,425 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F1 family is applicable
+2021-03-26 08:27:21,425 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv F1 family is applicable
+2021-03-26 08:27:21,426 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F7 family is applicable
+2021-03-26 08:27:21,426 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv F7 family is applicable
+2021-03-26 08:27:21,426 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigConv F4 and F2 family is applicable
+2021-03-26 08:27:21,426 [INFO] Rule:205 - rule Change Default Value for ADC ExternalTrigInjecConv F4 and F2 family is applicable
+2021-03-26 08:27:21,426 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0  is applicable
+2021-03-26 08:27:21,427 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0  is applicable
+2021-03-26 08:27:21,427 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0 is applicable
+2021-03-26 08:27:21,427 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0 is applicable
+2021-03-26 08:27:21,427 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0  is applicable
+2021-03-26 08:27:21,427 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0 is applicable
+2021-03-26 08:27:21,427 [INFO] Rule:205 - rule Rename USB_OE Signal is applicable
+2021-03-26 08:27:21,427 [INFO] Rule:205 - rule Rename Activate_OE Mode is applicable
+2021-03-26 08:27:21,427 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PC14/OSC32_IN -> PC14-OSC32_IN (PC14) is applicable
+2021-03-26 08:27:21,428 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PC15/OSC32_OUT -> PC15-OSC32_OUT (PC15) is applicable
+2021-03-26 08:27:21,428 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PH0/OSC_IN -> PH0-OSC_IN (PH0) is applicable
+2021-03-26 08:27:21,428 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PH1/OSC_OUT -> PH1-OSC_OUT (PH1) is applicable
+2021-03-26 08:27:21,428 [INFO] Rule:205 - rule Rename DIE462 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2021-03-26 08:27:21,428 [INFO] Rule:205 - rule Rename DIE415 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2021-03-26 08:27:21,428 [INFO] Rule:205 - rule Rename DIE462 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2021-03-26 08:27:21,428 [INFO] Rule:205 - rule Rename DIE415 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2021-03-26 08:27:21,428 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PA15 -> PA15 (JTDI) is applicable
+2021-03-26 08:27:21,429 [INFO] Rule:205 - rule Rename DIE462 pin PB3 -> PB3 (JTD0/TRACESWO) is applicable
+2021-03-26 08:27:21,429 [INFO] Rule:205 - rule Rename DIE415 pin PB3 -> PB3 (JTD0-TRACESWO) is applicable
+2021-03-26 08:27:21,429 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PB4 -> PB4 (NJTRST) is applicable
+2021-03-26 08:27:21,429 [INFO] Rule:205 - rule Rename DIE462 pin PH3/BOOT0 -> PH3-BOOT0 (BOOT0) is applicable
+2021-03-26 08:27:21,429 [INFO] Rule:205 - rule Rename CRYP DataEncryptionTypesList to Algorithm is applicable
+2021-03-26 08:27:21,429 [INFO] Rule:205 - rule Rename AES DataEncryptionTypesList to Algorithm is applicable
+2021-03-26 08:27:21,429 [INFO] Rule:205 - rule Rename TDESECB to CRYP_TDES_ECB is applicable
+2021-03-26 08:27:21,430 [INFO] Rule:205 - rule Rename TDESCBC to CRYP_TDES_CBC is applicable
+2021-03-26 08:27:21,430 [INFO] Rule:205 - rule Rename DESECB to CRYP_DES_ECB is applicable
+2021-03-26 08:27:21,430 [INFO] Rule:205 - rule Rename DESCBC to CRYP_DES_CBC is applicable
+2021-03-26 08:27:21,430 [INFO] Rule:205 - rule Rename AESECB to CRYP_AES_ECB is applicable
+2021-03-26 08:27:21,430 [INFO] Rule:205 - rule Rename AESCBC to CRYP_AES_CBC is applicable
+2021-03-26 08:27:21,430 [INFO] Rule:205 - rule Rename AESCTR to CRYP_AES_CTR is applicable
+2021-03-26 08:27:21,430 [INFO] Rule:205 - rule Rename AESGCM to CRYP_AES_GCM is applicable
+2021-03-26 08:27:21,430 [INFO] Rule:205 - rule Rename AESCCM to CRYP_AES_CCM is applicable
+2021-03-26 08:27:21,431 [INFO] Rule:205 - rule Rename CAN TimeSeg1 to BS1 is applicable
+2021-03-26 08:27:21,431 [INFO] Rule:205 - rule Rename CAN TimeSeg2 to BS2 is applicable
+2021-03-26 08:27:21,431 [INFO] Rule:205 - rule Rename CAN SyncJumpWidth to SJW is applicable
+2021-03-26 08:27:21,431 [INFO] Rule:205 - rule TimeTriggeredMode to TTCM is applicable
+2021-03-26 08:27:21,431 [INFO] Rule:205 - rule Rename CAN AutoBusOff to ABOM is applicable
+2021-03-26 08:27:21,431 [INFO] Rule:205 - rule Rename CAN AutoWakeUp to AWUM is applicable
+2021-03-26 08:27:21,431 [INFO] Rule:205 - rule Rename CAN AutoRetransmission to NART is applicable
+2021-03-26 08:27:21,432 [INFO] Rule:205 - rule Rename CAN ReceiveFifoLocked to RFLM is applicable
+2021-03-26 08:27:21,432 [INFO] Rule:205 - rule Rename CAN TransmitFifoPriority to TXFP is applicable
+2021-03-26 08:27:21,432 [INFO] Rule:205 - rule Rename HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGH in HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGHZ is applicable
+2021-03-26 08:27:21,432 [INFO] Rule:205 - rule Rename TIMER TIM_CLEARINPUTSOURCE_OCREFCLR in  TIMER TIM_CLEARINPUTSOURCE_NONE for F7 family is applicable
+2021-03-26 08:27:21,432 [INFO] Rule:205 - rule FDCAN_R1 - Rename FDCAN mode Master into Classic is applicable
+2021-03-26 08:27:21,432 [INFO] Rule:205 - rule FDCAN_R2 - Rename FDCAN mode Slave into Classic is applicable
+2021-03-26 08:27:21,432 [INFO] Rule:205 - rule FDCAN1_R3 - if PA10.Mode=FullDuplex, add Pin PA12 is applicable
+2021-03-26 08:27:21,433 [INFO] Rule:205 - rule FDCAN1_R3 - if PA9.Mode=FullDuplex, add Pin PA11 is applicable
+2021-03-26 08:27:21,433 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_1 - if PE1.Mode=FullDuplex, add Pin PB9 is applicable
+2021-03-26 08:27:21,433 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_1 - if PE0.Mode=FullDuplex, add Pin PB8 is applicable
+2021-03-26 08:27:21,433 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_2 - if PD5.Mode=FullDuplex, add Pin PD1 is applicable
+2021-03-26 08:27:21,433 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_2 - if PD4.Mode=FullDuplex, add Pin PD0 is applicable
+2021-03-26 08:27:21,433 [INFO] Rule:205 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA10 is applicable
+2021-03-26 08:27:21,433 [INFO] Rule:205 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA9 is applicable
+2021-03-26 08:27:21,433 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE1 is applicable
+2021-03-26 08:27:21,434 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE0 is applicable
+2021-03-26 08:27:21,434 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD5 is applicable
+2021-03-26 08:27:21,434 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD4 is applicable
+2021-03-26 08:27:21,434 [INFO] Rule:205 - rule FDCAN2_R3 - if PD10.Mode=FullDuplex, add Pin PB13 is applicable
+2021-03-26 08:27:21,434 [INFO] Rule:205 - rule FDCAN2_R3 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2021-03-26 08:27:21,434 [INFO] Rule:205 - rule FDCAN2_R3 - Alternatepin_1 - if PB7.Mode=FullDuplex, add Pin PB6 is applicable
+2021-03-26 08:27:21,434 [INFO] Rule:205 - rule FDCAN2_R3 - Alternatepin_1 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2021-03-26 08:27:21,434 [INFO] Rule:205 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD10 is applicable
+2021-03-26 08:27:21,435 [INFO] Rule:205 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD9 is applicable
+2021-03-26 08:27:21,435 [INFO] Rule:205 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PB7 is applicable
+2021-03-26 08:27:21,435 [INFO] Rule:205 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD6 is applicable
+2021-03-26 08:27:21,435 [INFO] Rule:205 - rule USART TxPinLevelInvertParam Mode is applicable
+2021-03-26 08:27:21,435 [INFO] Rule:205 - rule USART RxPinLevelInvertParam Mode is applicable
+2021-03-26 08:27:21,435 [INFO] Rule:205 - rule USART DataInvertParam Mode is applicable
+2021-03-26 08:27:21,435 [INFO] Rule:205 - rule USART SwapParam Mode is applicable
+2021-03-26 08:27:21,435 [INFO] Rule:205 - rule USART OverrunDisableParam Mode is applicable
+2021-03-26 08:27:21,435 [INFO] Rule:205 - rule USART DMADisableonRxErrorParam Mode is applicable
+2021-03-26 08:27:21,435 [INFO] Rule:205 - rule USART MSBFirstParam Mode is applicable
+2021-03-26 08:27:21,435 [INFO] Rule:205 - rule Update MwName for USB_DEVICE is applicable
+2021-03-26 08:27:21,436 [INFO] Rule:205 - rule Change PWR_Regulator_Voltage_Scale Default Value for RCC  H7 family is applicable
+2021-03-26 08:27:21,436 [INFO] Rule:205 - rule UART/USART IPParameter rename Prescaler parameter to ClockPrescaler is applicable
+2021-03-26 08:27:21,436 [INFO] Rule:205 - rule UART/USART Prescaler rename Prescaler parameter to ClockPrescaler is applicable
+2021-03-26 08:27:21,436 [INFO] Rule:205 - rule TIM1CLockSelection is applicable
+2021-03-26 08:27:21,436 [INFO] Rule:205 - rule TIM15CLockSelection is applicable
+2021-03-26 08:27:21,436 [INFO] Rule:205 - rule align RCC SDMMC3CLockSelection default value on MP1 is applicable
+2021-03-26 08:27:21,436 [INFO] Rule:205 - rule align RCC SDMMC12CLockSelection default value on MP1 is applicable
+2021-03-26 08:27:21,436 [INFO] Rule:205 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2021-03-26 08:27:21,436 [INFO] Rule:205 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2021-03-26 08:27:21,436 [INFO] Rule:205 - rule align RCC SPI6CLockSelection default value on MP1 is applicable
+2021-03-26 08:27:21,436 [INFO] Rule:205 - rule align RCC LPTIM23CLockSelection default value on MP1 is applicable
+2021-03-26 08:27:21,436 [INFO] Rule:205 - rule align RCC LPTIM1CLockSelection default value on MP1 is applicable
+2021-03-26 08:27:21,437 [INFO] Rule:205 - rule align RCC USART1CLockSelection default value on MP1 is applicable
+2021-03-26 08:27:21,437 [INFO] Rule:205 - rule align RCC USART24CLockSelection default value on MP1 is applicable
+2021-03-26 08:27:21,437 [INFO] Rule:205 - rule align RCC USART6CLockSelection default value on MP1 is applicable
+2021-03-26 08:27:21,437 [INFO] Rule:205 - rule align RCC UART78CLockSelection default value on MP1 is applicable
+2021-03-26 08:27:21,437 [INFO] Rule:205 - rule align RCC USART35CLockSelection default value on MP1 is applicable
+2021-03-26 08:27:21,437 [INFO] Rule:205 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2021-03-26 08:27:21,437 [INFO] Rule:205 - rule align RCC I2C46CLockSelection BCLK value on MP1 is applicable
+2021-03-26 08:27:21,437 [INFO] Rule:205 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2021-03-26 08:27:21,437 [INFO] Rule:205 - rule align RCC I2C12CLockSelection default value on MP1 is applicable
+2021-03-26 08:27:21,437 [INFO] Rule:205 - rule align RCC I2C35CLockSelection default value on MP1 is applicable
+2021-03-26 08:27:21,437 [INFO] Rule:205 - rule align RCC LPTIM45CLockSelection default value on MP1 is applicable
+2021-03-26 08:27:21,437 [INFO] Rule:205 - rule Rename DCMI PIXCK signal is applicable
+2021-03-26 08:27:21,438 [INFO] Rule:205 - rule Change Default Value for I2C46CLockSelection MP1 family is applicable
+2021-03-26 08:27:21,438 [INFO] Rule:205 - rule Change Default Value for UART for G4, G0 and WB families is applicable
+2021-03-26 08:27:21,438 [INFO] Rule:205 - rule Change Default Value for USART for G4, G0 and WB families is applicable
+2021-03-26 08:27:21,438 [INFO] Rule:205 - rule Change Default Value for USART for G4 family is applicable
+2021-03-26 08:27:21,502 [INFO] DbConfProperties:222 - Apply Compatibility (46/144 Rules)
+2021-03-26 08:27:21,529 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2021-03-26 08:27:21,801 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 330677152 Bytes (466616320)
+2021-03-26 08:27:21,815 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/hoang/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 5 ms. number of Sw pack : 22
+2021-03-26 08:27:21,919 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 5.2.0
+2021-03-26 08:27:21,919 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.1.0
+2021-03-26 08:27:21,919 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.1.0
+2021-03-26 08:27:21,919 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.0.0
+2021-03-26 08:27:21,919 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.1.0
+2021-03-26 08:27:21,920 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.2.0
+2021-03-26 08:27:21,920 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.1
+2021-03-26 08:27:21,920 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 2.0.0
+2021-03-26 08:27:21,920 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 3.0.1
+2021-03-26 08:27:21,920 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.16.0
+2021-03-26 08:27:21,920 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.1.0
+2021-03-26 08:27:21,920 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.0
+2021-03-26 08:27:21,920 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2021-03-26 08:27:21,921 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.2
+2021-03-26 08:27:21,921 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.0.0
+2021-03-26 08:27:21,921 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.0.0
+2021-03-26 08:27:21,921 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.16.1
+2021-03-26 08:27:21,921 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.0
+2021-03-26 08:27:21,921 [INFO] ThirdParty:897 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 4.7.0
+2021-03-26 08:27:21,921 [INFO] ThirdParty:897 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2021-03-26 08:27:21,921 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 6.0.0
+2021-03-26 08:27:22,218 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2021-03-26 08:27:22,220 [INFO] PinOutPanel:1367 - setPackage(STM32F411VETx,LQFP100)
+2021-03-26 08:27:22,700 [INFO] UtilMem:74 - Before build in PCC Used Memory: 365875784 Bytes (466616320)
+2021-03-26 08:27:22,957 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/hoang/.stm32cubemx/plugins/power
+2021-03-26 08:27:22,958 [INFO] UtilMem:74 - After build in PCC Used Memory: 379507272 Bytes (466616320)
+2021-03-26 08:27:22,968 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 08:27:22,969 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,969 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,969 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,969 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,969 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,969 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,970 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,970 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,970 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,970 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,970 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,970 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,970 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,971 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,971 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,971 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,971 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,971 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,972 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,972 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,972 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,972 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,973 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,973 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,973 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,974 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,974 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,974 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,974 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,974 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,975 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,975 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,975 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,975 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,976 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,976 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,976 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,976 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,977 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,977 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,977 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,977 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2021-03-26 08:27:22,985 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 08:27:23,004 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2021-03-26 08:27:23,105 [INFO] OpenFileManager:289 - Restore cursor
+2021-03-26 08:27:23,192 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 08:27:23,228 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 08:27:23,390 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 336571792 Bytes (466616320)
+2021-03-26 08:27:23,447 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 341595752 Bytes (466616320)
+2021-03-26 08:27:23,993 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: NVIC
+2021-03-26 08:27:23,993 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: SYS
+2021-03-26 08:27:23,994 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: GPIO
+2021-03-26 08:27:23,999 [INFO] CodeGenerator:598 - code generatio: config db path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\
+2021-03-26 08:27:24,794 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\license.tmp_save
+2021-03-26 08:27:25,255 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\license.tmp
+2021-03-26 08:27:25,615 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\gpio.tmp_save
+2021-03-26 08:27:25,835 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\gpio.tmp
+2021-03-26 08:27:25,984 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-03-26 08:27:25,985 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SYS
+2021-03-26 08:27:25,987 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-03-26 08:27:25,989 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2021-03-26 08:27:25,990 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-03-26 08:27:26,161 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_it.c_save
+2021-03-26 08:27:28,399 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_it.c
+2021-03-26 08:27:28,596 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Inc\stm32f4xx_it.h_save
+2021-03-26 08:27:28,802 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Inc\stm32f4xx_it.h
+2021-03-26 08:27:29,038 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_hal_msp.c_save
+2021-03-26 08:27:29,273 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_hal_msp.c
+2021-03-26 08:27:29,482 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\system.tmp_save
+2021-03-26 08:27:29,595 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\system.tmp
+2021-03-26 08:27:29,802 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-03-26 08:27:30,001 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Inc\stm32f4xx_hal_conf.h
+2021-03-26 08:27:30,076 [WARN] IPConfigManager:2673 - IP not found : gpio
+2021-03-26 08:27:30,077 [WARN] CodeGenerator:2697 - IP not found : gpio
+2021-03-26 08:27:30,222 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Inc\main.h_save
+2021-03-26 08:27:30,406 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Inc\main.h
+2021-03-26 08:27:30,616 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Src\main.c_save
+2021-03-26 08:27:30,853 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Src\main.c
+2021-03-26 08:27:34,194 [INFO] ProjectBuilder:1645 - Time for Copy HAL[1] : 2492mS.
+2021-03-26 08:27:34,222 [INFO] ProjectBuilder:2206 - Project Generator version: 3.5.2
+2021-03-26 08:27:34,584 [INFO] ConfigFileManager:953 - The Die is : DIE431
+2021-03-26 08:27:49,159 [INFO] ProjectBuilder:2373 - Time for Generating toolchain IDE Files: 14937mS.
+2021-03-26 08:27:49,178 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 18mS.
+2021-03-26 08:27:49,181 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 1mS.
+2021-03-26 08:27:55,755 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 08:27:57,605 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 08:27:57,621 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 08:28:00,241 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 08:28:02,296 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 08:28:02,328 [INFO] ApiDbMcu:445 - Load IP Config File for FREERTOS
+2021-03-26 08:28:02,601 [ERROR] RtosPanel:506 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2021-03-26 08:28:02,643 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 08:28:02,753 [ERROR] RtosPanel:506 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2021-03-26 08:28:02,764 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-03-26 08:28:40,472 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 08:28:40,472 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 08:28:40,472 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 08:28:41,480 [INFO] EditThreadDialog:688 - RAM SIZE (in KB): 128
+2021-03-26 08:28:41,480 [INFO] EditThreadDialog:690 - RAM SIZE (in words): 32768
+2021-03-26 08:28:57,597 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 08:28:57,597 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 08:28:57,598 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 08:28:57,738 [ERROR] RtosPanel:506 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2021-03-26 08:28:59,038 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 08:28:59,038 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 08:28:59,039 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 08:28:59,851 [INFO] EditThreadDialog:688 - RAM SIZE (in KB): 128
+2021-03-26 08:28:59,852 [INFO] EditThreadDialog:690 - RAM SIZE (in words): 32768
+2021-03-26 08:29:20,811 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 08:29:20,812 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 08:29:20,812 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 08:29:20,812 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 08:29:20,813 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 08:29:20,813 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 08:29:39,164 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 519971040 Bytes (799014912)
+2021-03-26 08:29:40,068 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 524687592 Bytes (799014912)
+2021-03-26 08:29:40,220 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 540942560 Bytes (799014912)
+2021-03-26 08:29:40,417 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: NVIC
+2021-03-26 08:29:40,417 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: FREERTOS
+2021-03-26 08:29:40,417 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: SYS
+2021-03-26 08:29:40,417 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: GPIO
+2021-03-26 08:29:40,436 [INFO] CodeGenerator:598 - code generatio: config db path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\
+2021-03-26 08:29:40,792 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\license.tmp_save
+2021-03-26 08:29:40,944 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\license.tmp
+2021-03-26 08:29:41,178 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\gpio.tmp_save
+2021-03-26 08:29:41,313 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\gpio.tmp
+2021-03-26 08:29:41,469 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-03-26 08:29:41,486 [INFO] Middleware:1071 - No code input for Bsp Dependency
+2021-03-26 08:29:41,631 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_inc.tmp_save
+2021-03-26 08:29:41,752 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_inc.tmp
+2021-03-26 08:29:41,948 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_vars.tmp_save
+2021-03-26 08:29:42,075 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_vars.tmp
+2021-03-26 08:29:42,271 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_pfp.tmp_save
+2021-03-26 08:29:42,400 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_pfp.tmp
+2021-03-26 08:29:42,606 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_HalInit.tmp_save
+2021-03-26 08:29:42,719 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_HalInit.tmp
+2021-03-26 08:29:42,915 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_start.tmp_save
+2021-03-26 08:29:43,025 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_start.tmp
+2021-03-26 08:29:43,221 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_threads.tmp_save
+2021-03-26 08:29:43,333 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_threads.tmp
+2021-03-26 08:29:43,529 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_user_threads.tmp_save
+2021-03-26 08:29:43,641 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_user_threads.tmp
+2021-03-26 08:29:43,847 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Inc\FreeRTOSConfig.h_save
+2021-03-26 08:29:44,058 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Inc\FreeRTOSConfig.h
+2021-03-26 08:29:44,260 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Src\freertos.c_save
+2021-03-26 08:29:44,454 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Src\freertos.c
+2021-03-26 08:29:44,508 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-03-26 08:29:44,509 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SYS
+2021-03-26 08:29:44,509 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-03-26 08:29:44,511 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2021-03-26 08:29:44,512 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-03-26 08:29:44,685 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_it.c_save
+2021-03-26 08:29:44,923 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_it.c
+2021-03-26 08:29:45,175 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Inc\stm32f4xx_it.h_save
+2021-03-26 08:29:45,396 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Inc\stm32f4xx_it.h
+2021-03-26 08:29:45,733 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_hal_msp.c_save
+2021-03-26 08:29:45,984 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_hal_msp.c
+2021-03-26 08:29:46,217 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\system.tmp_save
+2021-03-26 08:29:46,326 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\system.tmp
+2021-03-26 08:29:46,524 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2021-03-26 08:29:46,679 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_hal_timebase_tim.c
+2021-03-26 08:29:46,914 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-03-26 08:29:47,158 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Inc\stm32f4xx_hal_conf.h
+2021-03-26 08:29:47,262 [WARN] IPConfigManager:2673 - IP not found : gpio
+2021-03-26 08:29:47,263 [WARN] CodeGenerator:2697 - IP not found : gpio
+2021-03-26 08:29:47,438 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Inc\main.h_save
+2021-03-26 08:29:47,691 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Inc\main.h
+2021-03-26 08:29:47,983 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Src\main.c_save
+2021-03-26 08:29:48,292 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Src\main.c
+2021-03-26 08:29:54,189 [INFO] ProjectBuilder:1645 - Time for Copy HAL[1] : 4988mS.
+2021-03-26 08:29:54,193 [INFO] ProjectBuilder:2206 - Project Generator version: 3.5.2
+2021-03-26 08:29:54,545 [INFO] ConfigFileManager:953 - The Die is : DIE431
+2021-03-26 08:29:58,746 [INFO] ProjectBuilder:2373 - Time for Generating toolchain IDE Files: 4553mS.
+2021-03-26 08:29:58,768 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 21mS.
+2021-03-26 08:29:58,779 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 0mS.
+2021-03-26 08:57:04,882 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 08:57:04,883 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 08:57:04,883 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 08:57:04,883 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 08:57:04,883 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 08:57:04,883 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 08:57:05,390 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 491281720 Bytes (822083584)
+2021-03-26 08:57:05,473 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 496002352 Bytes (822083584)
+2021-03-26 08:57:05,637 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 508585264 Bytes (822083584)
+2021-03-26 08:57:05,802 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: NVIC
+2021-03-26 08:57:05,802 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: FREERTOS
+2021-03-26 08:57:05,802 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: SYS
+2021-03-26 08:57:05,803 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: GPIO
+2021-03-26 08:57:05,823 [INFO] CodeGenerator:598 - code generatio: config db path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\
+2021-03-26 08:57:06,098 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\license.tmp_save
+2021-03-26 08:57:06,238 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\license.tmp
+2021-03-26 08:57:06,469 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\gpio.tmp_save
+2021-03-26 08:57:06,591 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\gpio.tmp
+2021-03-26 08:57:06,770 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-03-26 08:57:06,781 [INFO] Middleware:1071 - No code input for Bsp Dependency
+2021-03-26 08:57:06,928 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_inc.tmp_save
+2021-03-26 08:57:07,037 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_inc.tmp
+2021-03-26 08:57:07,289 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_vars.tmp_save
+2021-03-26 08:57:07,401 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_vars.tmp
+2021-03-26 08:57:07,608 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_pfp.tmp_save
+2021-03-26 08:57:07,736 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_pfp.tmp
+2021-03-26 08:57:07,934 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_HalInit.tmp_save
+2021-03-26 08:57:08,045 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_HalInit.tmp
+2021-03-26 08:57:08,241 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_start.tmp_save
+2021-03-26 08:57:08,355 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_start.tmp
+2021-03-26 08:57:08,553 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_threads.tmp_save
+2021-03-26 08:57:08,663 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_threads.tmp
+2021-03-26 08:57:08,857 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_user_threads.tmp_save
+2021-03-26 08:57:08,983 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_user_threads.tmp
+2021-03-26 08:57:09,219 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Inc\FreeRTOSConfig.h_save
+2021-03-26 08:57:09,449 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Inc\FreeRTOSConfig.h
+2021-03-26 08:57:09,702 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Src\freertos.c_save
+2021-03-26 08:57:09,936 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Src\freertos.c
+2021-03-26 08:57:10,025 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-03-26 08:57:10,026 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SYS
+2021-03-26 08:57:10,026 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-03-26 08:57:10,028 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2021-03-26 08:57:10,029 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-03-26 08:57:10,202 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_it.c_save
+2021-03-26 08:57:10,435 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_it.c
+2021-03-26 08:57:10,681 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Inc\stm32f4xx_it.h_save
+2021-03-26 08:57:10,901 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Inc\stm32f4xx_it.h
+2021-03-26 08:57:11,236 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_hal_msp.c_save
+2021-03-26 08:57:11,477 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_hal_msp.c
+2021-03-26 08:57:11,713 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\system.tmp_save
+2021-03-26 08:57:11,832 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\system.tmp
+2021-03-26 08:57:12,053 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2021-03-26 08:57:12,275 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_hal_timebase_tim.c
+2021-03-26 08:57:12,547 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-03-26 08:57:12,793 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Inc\stm32f4xx_hal_conf.h
+2021-03-26 08:57:12,897 [WARN] IPConfigManager:2673 - IP not found : gpio
+2021-03-26 08:57:12,897 [WARN] CodeGenerator:2697 - IP not found : gpio
+2021-03-26 08:57:13,069 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Inc\main.h_save
+2021-03-26 08:57:13,293 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Inc\main.h
+2021-03-26 08:57:13,583 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Src\main.c_save
+2021-03-26 08:57:13,865 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Src\main.c
+2021-03-26 08:57:19,828 [INFO] ProjectBuilder:1645 - Time for Copy HAL[1] : 5063mS.
+2021-03-26 08:57:19,830 [INFO] ProjectBuilder:2206 - Project Generator version: 3.5.2
+2021-03-26 08:57:20,048 [INFO] ConfigFileManager:953 - The Die is : DIE431
+2021-03-26 08:57:23,983 [INFO] ProjectBuilder:2373 - Time for Generating toolchain IDE Files: 4153mS.
+2021-03-26 08:57:24,002 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 18mS.
+2021-03-26 08:57:24,008 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 0mS.
+2021-03-26 08:58:50,420 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 08:58:50,420 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 08:58:50,420 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 08:58:50,421 [INFO] TasksAndQueuesTab:734 - Dynamic
+2021-03-26 08:58:50,421 [WARN] TasksAndQueuesTab:740 - 128 128
+2021-03-26 08:58:50,421 [WARN] TasksAndQueuesTab:756 - max value is: 3840.0
+2021-03-26 08:58:53,060 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 444983600 Bytes (822083584)
+2021-03-26 08:58:53,149 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 450226480 Bytes (822083584)
+2021-03-26 08:58:53,302 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 458615088 Bytes (822083584)
+2021-03-26 08:58:53,471 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: NVIC
+2021-03-26 08:58:53,471 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: FREERTOS
+2021-03-26 08:58:53,471 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: SYS
+2021-03-26 08:58:53,471 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: GPIO
+2021-03-26 08:58:53,490 [INFO] CodeGenerator:598 - code generatio: config db path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\
+2021-03-26 08:58:53,846 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\license.tmp_save
+2021-03-26 08:58:53,993 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\license.tmp
+2021-03-26 08:58:54,231 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\gpio.tmp_save
+2021-03-26 08:58:54,355 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\gpio.tmp
+2021-03-26 08:58:54,537 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-03-26 08:58:54,544 [INFO] Middleware:1071 - No code input for Bsp Dependency
+2021-03-26 08:58:54,696 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_inc.tmp_save
+2021-03-26 08:58:54,806 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_inc.tmp
+2021-03-26 08:58:55,018 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_vars.tmp_save
+2021-03-26 08:58:55,134 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_vars.tmp
+2021-03-26 08:58:55,352 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_pfp.tmp_save
+2021-03-26 08:58:55,471 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_pfp.tmp
+2021-03-26 08:58:55,686 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_HalInit.tmp_save
+2021-03-26 08:58:55,809 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_HalInit.tmp
+2021-03-26 08:58:56,020 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_start.tmp_save
+2021-03-26 08:58:56,132 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_start.tmp
+2021-03-26 08:58:56,342 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_threads.tmp_save
+2021-03-26 08:58:56,465 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_threads.tmp
+2021-03-26 08:58:56,681 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\rtos_user_threads.tmp_save
+2021-03-26 08:58:56,793 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\rtos_user_threads.tmp
+2021-03-26 08:58:57,050 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Inc\FreeRTOSConfig.h_save
+2021-03-26 08:58:57,296 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Inc\FreeRTOSConfig.h
+2021-03-26 08:58:57,572 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Src\freertos.c_save
+2021-03-26 08:58:57,803 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Src\freertos.c
+2021-03-26 08:58:57,903 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2021-03-26 08:58:57,904 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SYS
+2021-03-26 08:58:57,905 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-03-26 08:58:57,907 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2021-03-26 08:58:57,907 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2021-03-26 08:58:58,089 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_it.c_save
+2021-03-26 08:58:58,335 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_it.c
+2021-03-26 08:58:58,603 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Inc\stm32f4xx_it.h_save
+2021-03-26 08:58:58,829 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Inc\stm32f4xx_it.h
+2021-03-26 08:58:59,185 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_hal_msp.c_save
+2021-03-26 08:58:59,443 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_hal_msp.c
+2021-03-26 08:58:59,701 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\MXTmpFiles\system.tmp_save
+2021-03-26 08:58:59,830 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\MXTmpFiles\system.tmp
+2021-03-26 08:59:00,066 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2021-03-26 08:59:00,314 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Src\stm32f4xx_hal_timebase_tim.c
+2021-03-26 08:59:00,600 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-03-26 08:59:00,854 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Inc\stm32f4xx_hal_conf.h
+2021-03-26 08:59:00,963 [WARN] IPConfigManager:2673 - IP not found : gpio
+2021-03-26 08:59:00,963 [WARN] CodeGenerator:2697 - IP not found : gpio
+2021-03-26 08:59:01,145 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Inc\main.h_save
+2021-03-26 08:59:01,378 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Inc\main.h
+2021-03-26 08:59:01,683 [INFO] CodeEngine:193 - oldGeneratedFile, E:\RTOS\week8\exercise20\Core\Src\main.c_save
+2021-03-26 08:59:01,970 [INFO] CodeEngine:211 - Generated code: E:\RTOS\week8\exercise20\Core\Src\main.c
+2021-03-26 08:59:07,878 [INFO] ProjectBuilder:1645 - Time for Copy HAL[1] : 5014mS.
+2021-03-26 08:59:07,880 [INFO] ProjectBuilder:2206 - Project Generator version: 3.5.2
+2021-03-26 08:59:08,101 [INFO] ConfigFileManager:953 - The Die is : DIE431
+2021-03-26 08:59:09,825 [INFO] ProjectBuilder:2373 - Time for Generating toolchain IDE Files: 1945mS.
+2021-03-26 08:59:09,854 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 29mS.
+2021-03-26 08:59:09,861 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 1mS.
+2021-03-26 11:13:55,567 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2021-04-09 04:35:24,662 [INFO] Activator:176 - 
+
+
+2021-04-09 04:35:24,666 [INFO] Activator:177 - !SESSION log4j initialized

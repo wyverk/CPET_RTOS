@@ -1,0 +1,276 @@
+11:36:24 **** Incremental Build of configuration Debug for project exercise20 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/mailbox.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/mailbox.d" -MT"Core/Src/mailbox.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mailbox.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+../Core/Src/mailbox.c: In function 'InitMailbox':
+../Core/Src/mailbox.c:21:35: warning: implicit declaration of function 'osMessageQue'; did you mean 'osMessagePut'? [-Wimplicit-function-declaration]
+  MessageQHandle = osMessageCreate(osMessageQue(MessageQue), NULL);
+                                   ^~~~~~~~~~~~
+                                   osMessagePut
+../Core/Src/mailbox.c:21:48: error: 'MessageQue' undeclared (first use in this function); did you mean 'osMessagePut'?
+  MessageQHandle = osMessageCreate(osMessageQue(MessageQue), NULL);
+                                                ^~~~~~~~~~
+                                                osMessagePut
+../Core/Src/mailbox.c:21:48: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/mailbox.c:26:2: warning: implicit declaration of function 'SemaphoreGive'; did you mean 'xSemaphoreGive'? [-Wimplicit-function-declaration]
+  SemaphoreGive(SemaSync1);
+  ^~~~~~~~~~~~~
+  xSemaphoreGive
+In file included from ../Core/Src/mailbox.c:10:0:
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:811:23: warning: unused variable 'os_messageQ_def_MessageQue' [-Wunused-variable]
+ const osMessageQDef_t os_messageQ_def_##name = \
+                       ^
+../Core/Src/mailbox.c:20:2: note: in expansion of macro 'osMessageQDef'
+  osMessageQDef(MessageQue, 1, uint16_t);
+  ^~~~~~~~~~~~~
+../Core/Src/mailbox.c: In function 'Post':
+../Core/Src/mailbox.c:33:31: error: 'syncMesage' undeclared (first use in this function); did you mean 'syncMessage'?
+  osMessagePut(MessageQHandle, syncMesage, 0);
+                               ^~~~~~~~~~
+                               syncMessage
+../Core/Src/mailbox.c: In function 'Pend':
+../Core/Src/mailbox.c:49:25: error: 'MailboxQHandle' undeclared (first use in this function); did you mean 'MessageQHandle'?
+  message = osMessageGet(MailboxQHandle, 0);
+                         ^~~~~~~~~~~~~~
+                         MessageQHandle
+../Core/Src/mailbox.c:42:6: warning: variable 'message' set but not used [-Wunused-but-set-variable]
+  int message;
+      ^~~~~~~
+../Core/Src/mailbox.c:51:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+In file included from ../Core/Src/mailbox.c:10:0:
+At top level:
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:811:23: warning: 'os_messageQ_def_MessageQue' defined but not used [-Wunused-const-variable=]
+ const osMessageQDef_t os_messageQ_def_##name = \
+                       ^
+../Core/Src/mailbox.c:20:2: note: in expansion of macro 'osMessageQDef'
+  osMessageQDef(MessageQue, 1, uint16_t);
+  ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:44: Core/Src/mailbox.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+11:37:38 **** Incremental Build of configuration Debug for project exercise20 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/mailbox.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/mailbox.d" -MT"Core/Src/mailbox.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mailbox.o"
+../Core/Src/mailbox.c: In function 'InitMailbox':
+../Core/Src/mailbox.c:26:2: warning: implicit declaration of function 'SemaphoreGive'; did you mean 'xSemaphoreGive'? [-Wimplicit-function-declaration]
+  SemaphoreGive(SemaSync1);
+  ^~~~~~~~~~~~~
+  xSemaphoreGive
+../Core/Src/mailbox.c: In function 'Post':
+../Core/Src/mailbox.c:33:31: error: 'syncMesage' undeclared (first use in this function); did you mean 'syncMessage'?
+  osMessagePut(MessageQHandle, syncMesage, 0);
+                               ^~~~~~~~~~
+                               syncMessage
+../Core/Src/mailbox.c:33:31: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/mailbox.c: In function 'Pend':
+../Core/Src/mailbox.c:49:25: error: 'MailboxQHandle' undeclared (first use in this function); did you mean 'MessageQHandle'?
+  message = osMessageGet(MailboxQHandle, 0);
+                         ^~~~~~~~~~~~~~
+                         MessageQHandle
+../Core/Src/mailbox.c:42:6: warning: variable 'message' set but not used [-Wunused-but-set-variable]
+  int message;
+      ^~~~~~~
+../Core/Src/mailbox.c:51:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [Core/Src/subdir.mk:44: Core/Src/mailbox.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+11:38:21 **** Incremental Build of configuration Debug for project exercise20 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/mailbox.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/mailbox.d" -MT"Core/Src/mailbox.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mailbox.o"
+../Core/Src/mailbox.c: In function 'Pend':
+../Core/Src/mailbox.c:49:25: error: 'MailboxQHandle' undeclared (first use in this function); did you mean 'MessageQHandle'?
+  message = osMessageGet(MailboxQHandle, 0);
+                         ^~~~~~~~~~~~~~
+                         MessageQHandle
+../Core/Src/mailbox.c:49:25: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:44: Core/Src/mailbox.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+11:38:44 **** Incremental Build of configuration Debug for project exercise20 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/mailbox.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/mailbox.d" -MT"Core/Src/mailbox.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mailbox.o"
+../Core/Src/mailbox.c: In function 'Pend':
+../Core/Src/mailbox.c:49:10: error: incompatible types when assigning to type 'int' from type 'osEvent {aka struct <anonymous>}'
+  message = osMessageGet(MessageQHandle, 0);
+          ^
+make: *** [Core/Src/subdir.mk:44: Core/Src/mailbox.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+11:44:11 **** Incremental Build of configuration Debug for project exercise20 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/mailbox.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/mailbox.d" -MT"Core/Src/mailbox.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mailbox.o"
+arm-none-eabi-g++ -o "exercise20.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\RTOS\week8\exercise20\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="exercise20.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: exercise20.elf
+ 
+arm-none-eabi-size   exercise20.elf 
+arm-none-eabi-objdump -h -S  exercise20.elf  > "exercise20.list"
+   text	   data	    bss	    dec	    hex	filename
+  18224	     24	  17944	  36192	   8d60	exercise20.elf
+Finished building: default.size.stdout
+ 
+Finished building: exercise20.list
+ 
+11:44:32 **** Incremental Build of configuration Debug for project exercise20 ****
+make -j8 all 
+arm-none-eabi-size   exercise20.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18224	     24	  17944	  36192	   8d60	exercise20.elf
+Finished building: default.size.stdout
+ 
+12:03:28 **** Incremental Build of configuration Debug for project exercise20 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/mailbox.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/mailbox.d" -MT"Core/Src/mailbox.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mailbox.o"
+arm-none-eabi-g++ -o "exercise20.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\RTOS\week8\exercise20\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="exercise20.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: exercise20.elf
+ 
+arm-none-eabi-objdump -h -S  exercise20.elf  > "exercise20.list"
+arm-none-eabi-size   exercise20.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18224	     24	  17944	  36192	   8d60	exercise20.elf
+Finished building: default.size.stdout
+ 
+Finished building: exercise20.list
+ 
+12:07:43 **** Incremental Build of configuration Debug for project exercise20 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/mailbox.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/mailbox.d" -MT"Core/Src/mailbox.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mailbox.o"
+arm-none-eabi-g++ -o "exercise20.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\RTOS\week8\exercise20\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="exercise20.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: exercise20.elf
+ 
+arm-none-eabi-objdump -h -S  exercise20.elf  > "exercise20.list"
+arm-none-eabi-size   exercise20.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18160	     24	  17944	  36128	   8d20	exercise20.elf
+Finished building: default.size.stdout
+ 
+Finished building: exercise20.list
+ 
+12:08:35 **** Incremental Build of configuration Debug for project exercise20 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/mailbox.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/mailbox.d" -MT"Core/Src/mailbox.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mailbox.o"
+arm-none-eabi-g++ -o "exercise20.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\RTOS\week8\exercise20\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="exercise20.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: exercise20.elf
+ 
+arm-none-eabi-objdump -h -S  exercise20.elf  > "exercise20.list"
+arm-none-eabi-size   exercise20.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18160	     24	  17944	  36128	   8d20	exercise20.elf
+Finished building: default.size.stdout
+ 
+Finished building: exercise20.list
+ 
+12:10:10 **** Incremental Build of configuration Debug for project exercise20 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:105:0,
+                 from ../Core/Src/main.c:23:
+../Core/Src/main.c: In function 'StartReceiving':
+../Core/Src/main.c:354:17: error: 'MailboxMutex' undeclared (first use in this function); did you mean 'osMutex'?
+  xSemaphoreTake(MailboxMutex, portMAX_DELAY);
+                 ^
+../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h:289:74: note: in definition of macro 'xSemaphoreTake'
+ #define xSemaphoreTake( xSemaphore, xBlockTime )  xQueueSemaphoreTake( ( xSemaphore ), ( xBlockTime ) )
+                                                                          ^~~~~~~~~~
+../Core/Src/main.c:354:17: note: each undeclared identifier is reported only once for each function it appears in
+  xSemaphoreTake(MailboxMutex, portMAX_DELAY);
+                 ^
+../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h:289:74: note: in definition of macro 'xSemaphoreTake'
+ #define xSemaphoreTake( xSemaphore, xBlockTime )  xQueueSemaphoreTake( ( xSemaphore ), ( xBlockTime ) )
+                                                                          ^~~~~~~~~~
+../Core/Src/main.c: In function 'StartSending':
+../Core/Src/main.c:394:17: error: 'MailboxMutex' undeclared (first use in this function); did you mean 'osMutex'?
+  xSemaphoreTake(MailboxMutex, portMAX_DELAY);
+                 ^
+../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h:289:74: note: in definition of macro 'xSemaphoreTake'
+ #define xSemaphoreTake( xSemaphore, xBlockTime )  xQueueSemaphoreTake( ( xSemaphore ), ( xBlockTime ) )
+                                                                          ^~~~~~~~~~
+make: *** [Core/Src/subdir.mk:46: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+12:11:51 **** Incremental Build of configuration Debug for project exercise20 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/mailbox.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/mailbox.d" -MT"Core/Src/mailbox.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mailbox.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "exercise20.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\RTOS\week8\exercise20\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="exercise20.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: exercise20.elf
+ 
+arm-none-eabi-objdump -h -S  exercise20.elf  > "exercise20.list"
+arm-none-eabi-size   exercise20.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19184	     24	  17944	  37152	   9120	exercise20.elf
+Finished building: default.size.stdout
+ 
+Finished building: exercise20.list
+ 
+12:11:57 **** Incremental Build of configuration Debug for project exercise20 ****
+make -j8 all 
+arm-none-eabi-size   exercise20.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19184	     24	  17944	  37152	   9120	exercise20.elf
+Finished building: default.size.stdout
+ 
+12:13:11 **** Incremental Build of configuration Debug for project exercise20 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/mailbox.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/mailbox.d" -MT"Core/Src/mailbox.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mailbox.o"
+arm-none-eabi-g++ -o "exercise20.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\RTOS\week8\exercise20\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="exercise20.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: exercise20.elf
+ 
+arm-none-eabi-objdump -h -S  exercise20.elf  > "exercise20.list"
+arm-none-eabi-size   exercise20.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19200	     24	  17944	  37168	   9130	exercise20.elf
+Finished building: default.size.stdout
+ 
+Finished building: exercise20.list
+ 
+12:15:42 **** Incremental Build of configuration Debug for project exercise20 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/mailbox.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/mailbox.d" -MT"Core/Src/mailbox.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mailbox.o"
+arm-none-eabi-g++ -o "exercise20.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\RTOS\week8\exercise20\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="exercise20.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: exercise20.elf
+ 
+arm-none-eabi-objdump -h -S  exercise20.elf  > "exercise20.list"
+arm-none-eabi-size   exercise20.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19200	     24	  17944	  37168	   9130	exercise20.elf
+Finished building: default.size.stdout
+ 
+Finished building: exercise20.list
+ 
+12:19:08 **** Incremental Build of configuration Debug for project exercise20 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/mailbox.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/mailbox.d" -MT"Core/Src/mailbox.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mailbox.o"
+arm-none-eabi-g++ -o "exercise20.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\RTOS\week8\exercise20\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="exercise20.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: exercise20.elf
+ 
+arm-none-eabi-objdump -h -S  exercise20.elf  > "exercise20.list"
+arm-none-eabi-size   exercise20.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19200	     24	  17944	  37168	   9130	exercise20.elf
+Finished building: default.size.stdout
+ 
+Finished building: exercise20.list
+ 
+12:21:21 **** Incremental Build of configuration Debug for project exercise20 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "exercise20.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\RTOS\week8\exercise20\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="exercise20.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: exercise20.elf
+ 
+arm-none-eabi-objdump -h -S  exercise20.elf  > "exercise20.list"
+arm-none-eabi-size   exercise20.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19248	     24	  17944	  37216	   9160	exercise20.elf
+Finished building: default.size.stdout
+ 
+Finished building: exercise20.list
+ 
+04:36:14 **** Build of configuration Debug for project exercise18 ****
+make -j8 all 
+arm-none-eabi-size   exercise18.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17052	     32	  17936	  35020	   88cc	exercise18.elf
+Finished building: default.size.stdout
+ 

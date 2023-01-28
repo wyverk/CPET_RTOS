@@ -1,0 +1,17 @@
+04:40:10 **** Incremental Build of configuration Debug for project exercise21 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "exercise21.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\RTOS\week9\exercise21\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="exercise21.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: exercise21.elf
+ 
+arm-none-eabi-objdump -h -S  exercise21.elf  > "exercise21.list"
+arm-none-eabi-size   exercise21.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7904	     20	   1636	   9560	   2558	exercise21.elf
+Finished building: default.size.stdout
+ 
+Finished building: exercise21.list
+ 
+
+04:40:14 Build Finished. 0 errors, 0 warnings. (took 4s.74ms)
+

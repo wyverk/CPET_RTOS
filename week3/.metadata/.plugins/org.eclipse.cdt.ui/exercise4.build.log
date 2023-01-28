@@ -1,0 +1,17 @@
+07:15:53 **** Incremental Build of configuration Debug for project exercise4 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "exercise4.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\RTOS\week3\exercise4\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="exercise4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: exercise4.elf
+ 
+arm-none-eabi-objdump -h -S  exercise4.elf  > "exercise4.list"
+arm-none-eabi-size   exercise4.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13312	     24	  17928	  31264	   7a20	exercise4.elf
+Finished building: default.size.stdout
+ 
+Finished building: exercise4.list
+ 
+
+07:15:55 Build Finished. 0 errors, 0 warnings. (took 2s.259ms)
+

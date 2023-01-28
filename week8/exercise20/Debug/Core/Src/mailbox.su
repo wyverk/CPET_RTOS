@@ -1,0 +1,3 @@
+mailbox.c:19:6:InitMailbox	32	static
+mailbox.c:31:6:Post	16	static
+mailbox.c:41:5:Pend	24	static
